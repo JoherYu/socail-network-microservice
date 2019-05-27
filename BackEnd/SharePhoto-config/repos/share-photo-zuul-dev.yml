@@ -1,9 +1,20 @@
 spring:
   application:
     name: share-photo-zuul
+  zipkin:
+    base-url: http://localhost:7020
+  boot:
+    admin:
+      client:
+        url: http://localhost:7010
 
 server:
   port: 7030
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:7000/eureka/
 
 zuul:
   routes:

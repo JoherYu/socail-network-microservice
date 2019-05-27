@@ -1,0 +1,21 @@
+spring:
+  application:
+    name: share-photo-zipkin
+  boot:
+    admin:
+      client:
+        url: http://localhost:7010
+
+server:
+  port: 7020
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:7000/eureka/
+
+management:
+  metrics:
+    web:
+      server:
+        auto-time-requests: false

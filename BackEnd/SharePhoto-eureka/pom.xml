@@ -59,7 +59,7 @@
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
                 <configuration>
-                    <mainClass>com.funtl.hello.spring.cloud.eureka.EurekaApplication</mainClass>
+                    <mainClass>com.sharePhoto.EurekaApplication</mainClass>
                 </configuration>
             </plugin>
         </plugins>

@@ -10,10 +10,10 @@
         <relativePath>../SharePhoto-dependencies/pom.xml</relativePath>
     </parent>
 
-    <artifactId>share-photo--config</artifactId>
+    <artifactId>share-photo-config</artifactId>
     <packaging>jar</packaging>
 
-    <name>share-photo--config</name>
+    <name>share-photo-config</name>
     <url>http://www.sharePhoto.com</url>
     <inceptionYear>2019-Now</inceptionYear>
 
@@ -71,7 +71,7 @@
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
                 <configuration>
-                    <mainClass>com.funtl.hello.spring.cloud.config.ConfigApplication</mainClass>
+                    <mainClass>com.sharePhoto.ConfigApplication</mainClass>
                 </configuration>
             </plugin>
         </plugins>

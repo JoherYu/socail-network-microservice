@@ -1,6 +1,0 @@
-spring:
-  application:
-    name: share-photo-admin
-
-server:
-  port: 7010

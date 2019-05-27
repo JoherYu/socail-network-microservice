@@ -1,0 +1,21 @@
+spring:
+  application:
+    name: share-photo-eureka
+  zipkin:
+    base-url: http://localhost:7020
+  boot:
+    admin:
+      client:
+        url: http://localhost:7010
+
+server:
+  port: 7000
+
+eureka:
+  instance:
+    hostname: localhost
+  client:
+    registerWithEureka: false
+    fetchRegistry: false
+    serviceUrl:
+      defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/

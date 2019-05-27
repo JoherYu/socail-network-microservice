@@ -83,7 +83,7 @@
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
                 <configuration>
-                    <mainClass>com.funtl.hello.spring.cloud.zipkin.ZipKinApplication</mainClass>
+                    <mainClass>com.sharePhoto.ZipkinApplication</mainClass>
                 </configuration>
             </plugin>
         </plugins>
