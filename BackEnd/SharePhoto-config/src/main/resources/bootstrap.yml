@@ -13,7 +13,7 @@ spring:
           uri: https://github.com/JoherYu/socail-network-microservice
           search-paths: /BackEnd/SharePhoto-config/repos
           username: joheryu@163.com
-          password: 
+          password:
   zipkin:
     base-url: http://localhost:7020
 

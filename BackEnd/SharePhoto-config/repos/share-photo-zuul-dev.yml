@@ -16,15 +16,6 @@ eureka:
     serviceUrl:
       defaultZone: http://localhost:7000/eureka/
 
-management:
-  endpoint:
-    health:
-      show-details: always
-  endpoints:
-    web:
-      exposure:
-        include: health,info
-
 zuul:
   routes:
     backend-admin:
