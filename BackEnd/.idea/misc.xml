@@ -8,10 +8,10 @@
       <list>
         <option value="$PROJECT_DIR$/SharePhoto-dependencies/pom.xml" />
         <option value="$PROJECT_DIR$/SharePhoto-config/pom.xml" />
-        <option value="$PROJECT_DIR$/SharePhoto-eureka/pom.xml" />
         <option value="$PROJECT_DIR$/SharePhoto-admin/pom.xml" />
         <option value="$PROJECT_DIR$/SharePhoto-zipkin/pom.xml" />
         <option value="$PROJECT_DIR$/SharePhoto-zuul/pom.xml" />
+        <option value="$PROJECT_DIR$/SharePhoto-eureka/pom.xml" />
       </list>
     </option>
   </component>
