@@ -13,7 +13,7 @@ spring:
           uri: https://github.com/JoherYu/socail-network-microservice
           search-paths: /BackEnd/SharePhoto-config/repos
           username: joheryu@163.com
-          password: 
+          password:
   zipkin:
     base-url: http://localhost:7020
 
@@ -24,3 +24,12 @@ eureka:
   client:
     serviceUrl:
       defaultZone: http://localhost:7000/eureka/
+
+management:
+  endpoint:
+    health:
+      show-details: always
+  endpoints:
+    web:
+      exposure:
+        include: health,info
