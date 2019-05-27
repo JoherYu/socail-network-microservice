@@ -9,7 +9,7 @@ spring:
         url: http://localhost:7010
 
 server:
-  port: 7000
+  port: 8761
 
 eureka:
   instance:
@@ -18,7 +18,7 @@ eureka:
     registerWithEureka: false
     fetchRegistry: false
     serviceUrl:
-      defaultZone: http://localhost:7000/eureka/
+      defaultZone: http://localhost:8761/eureka/
 
 management:
   endpoint:
