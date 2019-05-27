@@ -10,9 +10,9 @@ spring:
       label: master
       server:
         git:
-          uri: http://192.168.75.128/itoken/itoken-config-respo.git
+          uri: https://github.com/JoherYu/socail-network-microservice
           search-paths: respo
-          username: topsale@vip.qq.com
+          username: 
           password: 12345678
   zipkin:
     base-url: http://localhost:7020
