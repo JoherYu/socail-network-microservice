@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: share-photo-zuul
+
+server:
+  port: 7030
+
+zuul:
+  routes:
+    backend-admin:
+      path: /backend/admin/**
+      serviceId: itoken-web-admin
+    backend-posts:
+      path: /backend/posts/**
+      serviceId: itoken-web-posts

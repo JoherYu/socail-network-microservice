@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/BackEnd.iml" filepath="$PROJECT_DIR$/.idea/BackEnd.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SharePhoto-eureka/hello-spring-cloud-eureka.iml" filepath="$PROJECT_DIR$/SharePhoto-eureka/hello-spring-cloud-eureka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SharePhoto-config/share-photo--config.iml" filepath="$PROJECT_DIR$/SharePhoto-config/share-photo--config.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SharePhoto-admin/share-photo-admin.iml" filepath="$PROJECT_DIR$/SharePhoto-admin/share-photo-admin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SharePhoto-dependencies/share-photo-dependencies.iml" filepath="$PROJECT_DIR$/SharePhoto-dependencies/share-photo-dependencies.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SharePhoto-eureka/share-photo-eureka.iml" filepath="$PROJECT_DIR$/SharePhoto-eureka/share-photo-eureka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SharePhoto-zipkin/share-photo-zipkin.iml" filepath="$PROJECT_DIR$/SharePhoto-zipkin/share-photo-zipkin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SharePhoto-zuul/share-photo-zuul.iml" filepath="$PROJECT_DIR$/SharePhoto-zuul/share-photo-zuul.iml" />
+    </modules>
+  </component>
+</project>
