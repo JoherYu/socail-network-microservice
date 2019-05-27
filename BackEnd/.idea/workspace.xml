@@ -264,12 +264,10 @@
       <change beforePath="$PROJECT_DIR$/../../sharephoto/target/test-classes/META-INF/sharephoto.kotlin_module" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../sharephoto/target/test-classes/TestTagMapper.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../sharephoto/target/test-classes/faker/GenerateImage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SharePhoto-admin/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/SharePhoto-admin/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SharePhoto-admin/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/SharePhoto-admin/src/main/resources/bootstrap.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SharePhoto-config/repos/share-photo-eureka-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/SharePhoto-config/repos/share-photo-eureka-dev.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SharePhoto-config/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/SharePhoto-config/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SharePhoto-eureka/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/SharePhoto-eureka/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SharePhoto-zipkin/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/SharePhoto-zipkin/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SharePhoto-zuul/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/SharePhoto-zuul/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SharePhoto-config/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/SharePhoto-config/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SharePhoto-eureka/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/SharePhoto-eureka/src/main/resources/bootstrap.yml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/SharePhoto-dependencies/target/" />
     <ignored path="$PROJECT_DIR$/SharePhoto-config/target/" />
@@ -293,16 +291,16 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/SharePhoto-config/src/main/resources/application.yml">
+        <entry file="file://$PROJECT_DIR$/SharePhoto-config/src/main/resources/bootstrap.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="98">
-              <caret line="15" column="20" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
+            <state relative-caret-position="155">
+              <caret line="15" column="19" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SharePhoto-eureka/src/main/resources/application.yml">
+        <entry file="file://$PROJECT_DIR$/SharePhoto-eureka/src/main/resources/bootstrap.yml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="57">
               <caret line="3" column="32" selection-start-line="3" selection-start-column="32" selection-end-line="3" selection-end-column="32" />
@@ -313,8 +311,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/SharePhoto-config/repos/share-photo-eureka-dev.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
-              <caret line="20" column="40" selection-start-line="20" selection-start-column="40" selection-end-line="20" selection-end-column="40" />
+            <state relative-caret-position="321">
+              <caret line="17" column="29" lean-forward="true" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -357,8 +355,8 @@
         <option value="$PROJECT_DIR$/SharePhoto-eureka/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/SharePhoto-zipkin/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/SharePhoto-zuul/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/SharePhoto-config/repos/share-photo-eureka-dev.yml" />
         <option value="$PROJECT_DIR$/SharePhoto-config/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/SharePhoto-config/repos/share-photo-eureka-dev.yml" />
       </list>
     </option>
   </component>
@@ -392,13 +390,33 @@
             <path>
               <item name="BackEnd" type="b2602c69:ProjectViewProjectNode" />
               <item name="BackEnd" type="462c0819:PsiDirectoryNode" />
-              <item name="SharePhoto-config" type="462c0819:PsiDirectoryNode" />
+              <item name="SharePhoto-admin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BackEnd" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BackEnd" type="462c0819:PsiDirectoryNode" />
+              <item name="SharePhoto-admin" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BackEnd" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BackEnd" type="462c0819:PsiDirectoryNode" />
+              <item name="SharePhoto-admin" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BackEnd" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BackEnd" type="462c0819:PsiDirectoryNode" />
+              <item name="SharePhoto-admin" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="BackEnd" type="b2602c69:ProjectViewProjectNode" />
               <item name="BackEnd" type="462c0819:PsiDirectoryNode" />
               <item name="SharePhoto-config" type="462c0819:PsiDirectoryNode" />
-              <item name="repos" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="BackEnd" type="b2602c69:ProjectViewProjectNode" />
@@ -424,6 +442,40 @@
             <path>
               <item name="BackEnd" type="b2602c69:ProjectViewProjectNode" />
               <item name="BackEnd" type="462c0819:PsiDirectoryNode" />
+              <item name="SharePhoto-eureka" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BackEnd" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BackEnd" type="462c0819:PsiDirectoryNode" />
+              <item name="SharePhoto-eureka" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BackEnd" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BackEnd" type="462c0819:PsiDirectoryNode" />
+              <item name="SharePhoto-eureka" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BackEnd" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BackEnd" type="462c0819:PsiDirectoryNode" />
+              <item name="SharePhoto-eureka" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BackEnd" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BackEnd" type="462c0819:PsiDirectoryNode" />
+              <item name="SharePhoto-eureka" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BackEnd" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BackEnd" type="462c0819:PsiDirectoryNode" />
               <item name="SharePhoto-zuul" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -439,7 +491,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1558953259162" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1558953704410" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/SharePhoto-zuul/pom.xml" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -503,8 +555,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.EurekaApplication" />
         <item itemvalue="Spring Boot.ConfigApplication" />
+        <item itemvalue="Spring Boot.EurekaApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -519,18 +571,17 @@
       <option name="presentableId" value="Default" />
       <updated>1558923445025</updated>
       <workItem from="1558923447087" duration="15817000" />
-      <workItem from="1558948367908" duration="4659000" />
+      <workItem from="1558948367908" duration="5093000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20476000" />
+    <option name="totallyTimeSpent" value="20910000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25378788" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25378788" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -553,8 +604,8 @@
       <window_info anchor="bottom" id="Problems" order="12" weight="0.32847896" />
       <window_info anchor="bottom" id="Java Enterprise" order="13" />
       <window_info anchor="bottom" id="Database Changes" order="14" />
-      <window_info anchor="bottom" id="Version Control" order="15" />
-      <window_info anchor="bottom" id="Run Dashboard" order="16" sideWeight="0.49924242" weight="0.9514563" />
+      <window_info anchor="bottom" id="Version Control" order="15" weight="0.32847896" />
+      <window_info active="true" anchor="bottom" id="Run Dashboard" order="16" sideWeight="0.49924242" visible="true" weight="0.9514563" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -732,7 +783,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SharePhoto-admin/src/main/resources/application.yml">
+    <entry file="file://$PROJECT_DIR$/SharePhoto-admin/src/main/resources/bootstrap.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="57">
           <caret line="3" column="28" selection-start-line="3" selection-start-column="28" selection-end-line="3" selection-end-column="32" />
@@ -765,7 +816,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SharePhoto-eureka/src/main/resources/application.yml">
+    <entry file="file://$PROJECT_DIR$/SharePhoto-eureka/src/main/resources/bootstrap.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="57">
           <caret line="3" column="32" selection-start-line="3" selection-start-column="32" selection-end-line="3" selection-end-column="32" />
@@ -774,15 +825,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/SharePhoto-config/repos/share-photo-eureka-dev.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="20" column="40" selection-start-line="20" selection-start-column="40" selection-end-line="20" selection-end-column="40" />
+        <state relative-caret-position="321">
+          <caret line="17" column="29" lean-forward="true" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SharePhoto-config/src/main/resources/application.yml">
+    <entry file="file://$PROJECT_DIR$/SharePhoto-config/src/main/resources/bootstrap.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="98">
-          <caret line="15" column="20" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
+        <state relative-caret-position="155">
+          <caret line="15" column="19" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
         </state>
       </provider>
     </entry>
