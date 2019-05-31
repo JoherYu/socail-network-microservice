@@ -2,6 +2,6 @@ spring:
   cloud:
     config:
       uri: http://localhost:7040
-      name: share-photo-admin
+      name: share-photo-eureka
       label: master
       profile: dev

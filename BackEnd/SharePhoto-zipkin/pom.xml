@@ -93,7 +93,7 @@
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
                 <configuration>
-                    <mainClass>com.sharePhoto.ZipkinApplication</mainClass>
+                    <mainClass>com.sharePhoto.zipkin.ZipkinApplication</mainClass>
                 </configuration>
             </plugin>
         </plugins>

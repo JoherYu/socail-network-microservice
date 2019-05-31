@@ -27,9 +27,6 @@ management:
 
 zuul:
   routes:
-    backend-admin:
-      path: /backend/admin/**
-      serviceId: itoken-web-admin
-    backend-posts:
-      path: /backend/posts/**
-      serviceId: itoken-web-posts
+    login:
+      path: /session
+      serviceId: share-photo-sso

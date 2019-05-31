@@ -3,10 +3,14 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/BackEnd.iml" filepath="$PROJECT_DIR$/.idea/BackEnd.iml" />
-      <module fileurl="file://$PROJECT_DIR$/SharePhoto-config/share-photo--config.iml" filepath="$PROJECT_DIR$/SharePhoto-config/share-photo--config.iml" />
       <module fileurl="file://$PROJECT_DIR$/SharePhoto-admin/share-photo-admin.iml" filepath="$PROJECT_DIR$/SharePhoto-admin/share-photo-admin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SharePhoto-common/share-photo-common.iml" filepath="$PROJECT_DIR$/SharePhoto-common/share-photo-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SharePhoto-common-service/share-photo-common-service.iml" filepath="$PROJECT_DIR$/SharePhoto-common-service/share-photo-common-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SharePhoto-config/share-photo-config.iml" filepath="$PROJECT_DIR$/SharePhoto-config/share-photo-config.iml" />
       <module fileurl="file://$PROJECT_DIR$/SharePhoto-dependencies/share-photo-dependencies.iml" filepath="$PROJECT_DIR$/SharePhoto-dependencies/share-photo-dependencies.iml" />
       <module fileurl="file://$PROJECT_DIR$/SharePhoto-eureka/share-photo-eureka.iml" filepath="$PROJECT_DIR$/SharePhoto-eureka/share-photo-eureka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SharePhoto-redis/share-photo-redis.iml" filepath="$PROJECT_DIR$/SharePhoto-redis/share-photo-redis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SharePhoto-sso/share-photo-sso.iml" filepath="$PROJECT_DIR$/SharePhoto-sso/share-photo-sso.iml" />
       <module fileurl="file://$PROJECT_DIR$/SharePhoto-zipkin/share-photo-zipkin.iml" filepath="$PROJECT_DIR$/SharePhoto-zipkin/share-photo-zipkin.iml" />
       <module fileurl="file://$PROJECT_DIR$/SharePhoto-zuul/share-photo-zuul.iml" filepath="$PROJECT_DIR$/SharePhoto-zuul/share-photo-zuul.iml" />
     </modules>
