@@ -22,6 +22,8 @@
       <module name="share-photo-admin" target="1.8" />
       <module name="share-photo-dependencies" target="1.8" />
       <module name="share-photo-eureka" target="1.8" />
+      <module name="share-photo-provider-upload" target="1.8" />
+      <module name="share-photo-upload-provider" target="1.8" />
       <module name="share-photo-zipkin" target="1.8" />
       <module name="share-photo-zuul" target="1.8" />
     </bytecodeTargetLevel>
@@ -33,6 +35,8 @@
       <module name="share-photo--config" options="-parameters" />
       <module name="share-photo-admin" options="-parameters" />
       <module name="share-photo-eureka" options="-parameters" />
+      <module name="share-photo-provider-upload" options="-parameters" />
+      <module name="share-photo-upload-provider" options="-parameters" />
       <module name="share-photo-zipkin" options="-parameters" />
       <module name="share-photo-zuul" options="-parameters" />
     </option>

@@ -12,6 +12,8 @@
         <option value="$PROJECT_DIR$/SharePhoto-zipkin/pom.xml" />
         <option value="$PROJECT_DIR$/SharePhoto-zuul/pom.xml" />
         <option value="$PROJECT_DIR$/SharePhoto-eureka/pom.xml" />
+        <option value="$PROJECT_DIR$/SharePhoto-upload/pom.xml" />
+        <option value="$PROJECT_DIR$/SharePhoto-upload-provider/pom.xml" />
       </list>
     </option>
   </component>

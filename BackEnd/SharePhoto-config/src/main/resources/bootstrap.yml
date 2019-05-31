@@ -11,7 +11,7 @@ spring:
       server:
         git:
           uri: https://github.com/JoherYu/socail-network-microservice
-          search-paths: /BackEnd/SharePhoto-config/repos
+          search-paths: /BackEnd/SharePhoto-confiuration
           username: joheryu@163.com
           password: 
   zipkin:
