@@ -30,3 +30,10 @@ zuul:
     login:
       path: /session
       serviceId: share-photo-sso
+  host:
+    connect-timeout-millis: 60000
+    socket-timeout-millis: 60000
+
+feign:
+  ReadTimeout: 60000
+  ConnectTimeout: 60000
