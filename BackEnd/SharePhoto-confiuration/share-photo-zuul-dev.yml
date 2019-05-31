@@ -34,6 +34,6 @@ zuul:
     connect-timeout-millis: 60000
     socket-timeout-millis: 60000
 
-feign:
+ribbon:
   ReadTimeout: 60000
   ConnectTimeout: 60000
