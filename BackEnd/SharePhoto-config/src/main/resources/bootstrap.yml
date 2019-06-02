@@ -1,10 +1,10 @@
 spring:
   application:
-    name: share-photo-eureka
+    name: share-photo-config
   boot:
     admin:
       client:
-        url: http://39.106.36.194:7010
+        url: http://localhost:7010
   cloud:
     config:
       label: master
@@ -13,9 +13,9 @@ spring:
           uri: https://github.com/JoherYu/socail-network-microservice
           search-paths: /BackEnd/SharePhoto-confiuration
           username: joheryu@163.com
-          password: 
+          password: Yu13945804761..
   zipkin:
-    base-url: http://39.106.36.194:7020
+    base-url: http://localhost:7020
 
 server:
   port: 7040
@@ -23,7 +23,7 @@ server:
 eureka:
   client:
     serviceUrl:
-      defaultZone: http://39.106.36.194:7000/eureka/
+      defaultZone: http://localhost:7000/eureka/
 
 management:
   endpoint:
