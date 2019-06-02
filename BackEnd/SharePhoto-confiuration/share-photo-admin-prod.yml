@@ -1,8 +1,8 @@
 spring:
   application:
-    name: share-photo-eureka
+    name: share-photo-admin
   zipkin:
-    base-url: http://localhost:7020
+    base-url: http://39.106.36.194:7020
 
 server:
   port: 7010
@@ -10,7 +10,7 @@ server:
 eureka:
   client:
     serviceUrl:
-      defaultZone: http://localhost:7000/eureka/
+      defaultZone: http://39.106.36.194:7000/eureka/
 
 management:
   endpoint:
