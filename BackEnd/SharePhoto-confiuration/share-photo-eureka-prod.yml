@@ -18,7 +18,7 @@ eureka:
     registerWithEureka: false
     fetchRegistry: false
     serviceUrl:
-      defaultZone: http://${eureka.instance.hostname}:$7000/eureka/,http://${eureka.instance.hostname}:$7001/eureka/,http://${eureka.instance.hostname}:$7002/eureka/
+      defaultZone: http://${eureka.instance.hostname}:7000/eureka/,http://${eureka.instance.hostname}:7001/eureka/,http://${eureka.instance.hostname}:7002/eureka/
 
 management:
   endpoint:
