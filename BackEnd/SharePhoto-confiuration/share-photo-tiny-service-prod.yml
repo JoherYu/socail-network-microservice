@@ -1,0 +1,30 @@
+spring:
+  application:
+    name: share-photo-tiny-service
+  zipkin:
+    base-url: http://39.106.36.194:7020
+  boot:
+    admin:
+      client:
+        url: http://39.106.36.194:7010
+
+server:
+  port: 7080
+
+management:
+  endpoint:
+    health:
+      show-details: always
+  endpoints:
+    web:
+      exposure:
+        include: health,info
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://39.106.36.194:7000/eureka/,http://39.106.36.194:7001/eureka/,http://39.106.36.194:7002/eureka/
+
+feign:
+  hystrix:
+    enabled: true

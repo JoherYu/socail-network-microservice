@@ -2,165 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ca4df540-2e1a-4d31-846b-e360900efc3c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_fastjson_1_2_54.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_csource_fastdfs_client_java_1_27_SNAPSHOT.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SharePhoto-common-service/src/main/java/com/sharePhoto/common/service/ReadWriteSplittingService/DBContextHolder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SharePhoto-common-service/src/main/java/com/sharePhoto/common/service/ReadWriteSplittingService/DBTypeEnum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SharePhoto-common-service/src/main/java/com/sharePhoto/common/service/ReadWriteSplittingService/MyRoutingDataSource.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SharePhoto-common/src/main/java/com/sharePhoto/common/Hystrix.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SharePhoto-confiuration/share-photo-sso-prod.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SharePhoto-dataFaker/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SharePhoto-dataFaker/share-photo-dataFaker.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SharePhoto-dataFaker/src/main/java/com/sharePhoto/dataFaker/config/DataSourceAop.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SharePhoto-dataFaker/src/main/java/com/sharePhoto/dataFaker/config/DataSourceConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SharePhoto-dataFaker/src/main/java/com/sharePhoto/dataFaker/config/MyBatisConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SharePhoto-dataFaker/src/main/java/com/sharePhoto/dataFaker/controller/FakingItController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SharePhoto-dataFaker/src/main/java/com/sharePhoto/dataFaker/dao/CollectMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SharePhoto-dataFaker/src/main/java/com/sharePhoto/dataFaker/dao/CommentMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SharePhoto-dataFaker/src/main/java/com/sharePhoto/dataFaker/dao/FollowMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SharePhoto-dataFaker/src/main/java/com/sharePhoto/dataFaker/dao/NotificationMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SharePhoto-dataFaker/src/main/java/com/sharePhoto/dataFaker/dao/PhotoMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SharePhoto-dataFaker/src/main/java/com/sharePhoto/dataFaker/dao/TagMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SharePhoto-dataFaker/src/main/java/com/sharePhoto/dataFaker/dao/TaggingMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SharePhoto-dataFaker/src/main/java/com/sharePhoto/dataFaker/dao/UserMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SharePhoto-dataFaker/src/main/java/com/sharePhoto/dataFaker/dataFakerApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SharePhoto-dataFaker/src/main/java/com/sharePhoto/dataFaker/entity/Collect.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SharePhoto-dataFaker/src/main/java/com/sharePhoto/dataFaker/entity/CollectKey.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SharePhoto-dataFaker/src/main/java/com/sharePhoto/dataFaker/entity/Comment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SharePhoto-dataFaker/src/main/java/com/sharePhoto/dataFaker/entity/Follow.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SharePhoto-dataFaker/src/main/java/com/sharePhoto/dataFaker/entity/FollowKey.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SharePhoto-dataFaker/src/main/java/com/sharePhoto/dataFaker/entity/Notification.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SharePhoto-dataFaker/src/main/java/com/sharePhoto/dataFaker/entity/Tagging.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SharePhoto-dataFaker/src/main/java/com/sharePhoto/dataFaker/services/fastdfsService/FastDFSConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SharePhoto-dataFaker/src/main/java/com/sharePhoto/dataFaker/services/fastdfsService/FastDFSStorageService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SharePhoto-dataFaker/src/main/java/com/sharePhoto/dataFaker/services/fastdfsService/StorageFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SharePhoto-dataFaker/src/main/java/com/sharePhoto/dataFaker/services/fastdfsService/StorageService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SharePhoto-dataFaker/src/main/java/com/sharePhoto/dataFaker/services/generateAvatar/DefaultGenerator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SharePhoto-dataFaker/src/main/java/com/sharePhoto/dataFaker/services/generateAvatar/GenerateAvatar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SharePhoto-dataFaker/src/main/java/com/sharePhoto/dataFaker/services/generateAvatar/IBaseGenartor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SharePhoto-dataFaker/src/main/java/com/sharePhoto/dataFaker/services/generateAvatar/Identicon.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SharePhoto-dataFaker/src/main/java/com/sharePhoto/dataFaker/services/generateData/GenerateFakeData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SharePhoto-dataFaker/src/main/java/com/sharePhoto/dataFaker/services/generateData/GenerateFakeDataImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SharePhoto-dataFaker/src/main/java/com/sharePhoto/dataFaker/services/generateImage/GenerateImage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SharePhoto-dataFaker/src/main/resources/bootstrap.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SharePhoto-dataFaker/src/main/resources/mapper/CollectMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SharePhoto-dataFaker/src/main/resources/mapper/CommentMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SharePhoto-dataFaker/src/main/resources/mapper/FollowMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SharePhoto-dataFaker/src/main/resources/mapper/NotificationMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SharePhoto-dataFaker/src/main/resources/mapper/PhotoMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SharePhoto-dataFaker/src/main/resources/mapper/TagMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SharePhoto-dataFaker/src/main/resources/mapper/TaggingMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SharePhoto-dataFaker/src/main/resources/mapper/UserMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SharePhoto-sso/src/main/java/com/sharePhoto/sso/config/DataSourceAop.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SharePhoto-sso/src/main/java/com/sharePhoto/sso/config/DataSourceConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SharePhoto-sso/src/main/java/com/sharePhoto/sso/config/MyBatisConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SharePhoto-sso/src/main/java/com/sharePhoto/sso/consumer/RedisHystrix.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SharePhoto-tiny-service/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SharePhoto-tiny-service/share-photo-tiny-service.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SharePhoto-tiny-service/src/main/java/com/sharePhoto/tiny/service/TinyServiceApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SharePhoto-tiny-service/src/main/java/com/sharePhoto/tiny/service/consumer/RedisServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SharePhoto-tiny-service/src/main/java/com/sharePhoto/tiny/service/controller/TinyController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SharePhoto-tiny-service/src/main/java/com/sharePhoto/tiny/service/service/TinyServices.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SharePhoto-tiny-service/src/main/java/com/sharePhoto/tiny/service/service/TinyServicesImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SharePhoto-tiny-service/src/main/resources/bootstrap.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SharePhoto-zuul/docker/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SharePhoto-zuul/docker/docker-compose.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SharePhoto-zuul/src/main/java/com/sharePhoto/zuul/filters/CSRFFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SharePhoto-zuul/src/main/java/com/sharePhoto/zuul/filters/CorsConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SharePhoto-zuul/src/main/java/com/sharePhoto/zuul/service/RedisServer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_googlecode_javaewah_JavaEWAH_1_1_6.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_jcraft_jsch_0_1_54.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_micrometer_micrometer_registry_prometheus_1_0_4.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_prometheus_simpleclient_0_2_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_prometheus_simpleclient_common_0_2_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_undertow_undertow_core_1_4_25_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_undertow_undertow_servlet_1_4_25_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_undertow_undertow_websockets_jsr_1_4_25_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_zipkin_java_zipkin_2_10_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_zipkin_java_zipkin_autoconfigure_metrics_prometheus_2_10_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_zipkin_java_zipkin_autoconfigure_ui_2_10_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_zipkin_java_zipkin_server_2_10_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_zipkin_java_zipkin_ui_2_10_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_zipkin_zipkin2_zipkin_2_10_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_zipkin_zipkin2_zipkin_collector_2_10_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jgit_org_eclipse_jgit_4_8_0_201706111038_r.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_javax_el_3_0_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_spec_javax_annotation_jboss_annotations_api_1_2_spec_1_0_2_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_spec_javax_websocket_jboss_websocket_api_1_1_spec_1_1_3_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_xnio_xnio_api_3_3_8_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_xnio_xnio_nio_3_3_8_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jsoup_jsoup_1_11_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_undertow_2_0_2_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_config_server_2_0_0_RC1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SharePhoto-confiuration/share-photo-tiny-service-prod.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SharePhoto-admin/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/SharePhoto-admin/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SharePhoto-admin/share-photo-admin.iml" beforeDir="false" afterPath="$PROJECT_DIR$/SharePhoto-admin/share-photo-admin.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SharePhoto-admin/src/main/java/com/sharePhoto/admin/AdminApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/SharePhoto-admin/src/main/java/com/sharePhoto/admin/AdminApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SharePhoto-common-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/SharePhoto-common-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SharePhoto-common-service/share-photo-common-service.iml" beforeDir="false" afterPath="$PROJECT_DIR$/SharePhoto-common-service/share-photo-common-service.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SharePhoto-common-service/src/main/java/com/sharePhoto/common/service/entity/Photo.java" beforeDir="false" afterPath="$PROJECT_DIR$/SharePhoto-common-service/src/main/java/com/sharePhoto/common/service/entity/Photo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SharePhoto-common-service/src/main/java/com/sharePhoto/common/service/entity/Tag.java" beforeDir="false" afterPath="$PROJECT_DIR$/SharePhoto-common-service/src/main/java/com/sharePhoto/common/service/entity/Tag.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SharePhoto-common-service/src/main/java/com/sharePhoto/common/service/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/SharePhoto-common-service/src/main/java/com/sharePhoto/common/service/entity/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SharePhoto-common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/SharePhoto-common/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SharePhoto-common/share-photo-common.iml" beforeDir="false" afterPath="$PROJECT_DIR$/SharePhoto-common/share-photo-common.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SharePhoto-common/src/main/java/com/sharePhoto/common/CookieUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/SharePhoto-common/src/main/java/com/sharePhoto/common/CookieUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SharePhoto-config/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/SharePhoto-config/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SharePhoto-config/share-photo-config.iml" beforeDir="false" afterPath="$PROJECT_DIR$/SharePhoto-config/share-photo-config.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SharePhoto-config/src/main/java/com/sharePhoto/config/ConfigApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/SharePhoto-config/src/main/java/com/sharePhoto/config/ConfigApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SharePhoto-config/target/classes/com/sharePhoto/config/ConfigApplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SharePhoto-confiuration/share-photo-zuul-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/SharePhoto-confiuration/share-photo-zuul-prod.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SharePhoto-eureka/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/SharePhoto-eureka/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SharePhoto-eureka/share-photo-eureka.iml" beforeDir="false" afterPath="$PROJECT_DIR$/SharePhoto-eureka/share-photo-eureka.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SharePhoto-eureka/src/main/java/com/sharePhoto/eureka/EurekaApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/SharePhoto-eureka/src/main/java/com/sharePhoto/eureka/EurekaApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SharePhoto-eureka/target/classes/com/sharePhoto/eureka/EurekaApplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SharePhoto-redis/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/SharePhoto-redis/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SharePhoto-redis/src/main/java/com/sharePhoto/redis/controller/RedisController.java" beforeDir="false" afterPath="$PROJECT_DIR$/SharePhoto-redis/src/main/java/com/sharePhoto/redis/controller/RedisController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SharePhoto-redis/src/main/java/com/sharePhoto/redis/service/RedisService.java" beforeDir="false" afterPath="$PROJECT_DIR$/SharePhoto-redis/src/main/java/com/sharePhoto/redis/service/RedisService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SharePhoto-redis/src/main/java/com/sharePhoto/redis/service/impl/RedisServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/SharePhoto-redis/src/main/java/com/sharePhoto/redis/service/impl/RedisServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SharePhoto-redis/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/SharePhoto-redis/src/main/resources/bootstrap.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SharePhoto-redis/target/classes/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/SharePhoto-redis/target/classes/bootstrap.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SharePhoto-redis/target/classes/com/sharePhoto/redis/controller/RedisController.class" beforeDir="false" afterPath="$PROJECT_DIR$/SharePhoto-redis/target/classes/com/sharePhoto/redis/controller/RedisController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SharePhoto-redis/target/classes/com/sharePhoto/redis/service/RedisService.class" beforeDir="false" afterPath="$PROJECT_DIR$/SharePhoto-redis/target/classes/com/sharePhoto/redis/service/RedisService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SharePhoto-redis/target/classes/com/sharePhoto/redis/service/impl/RedisServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/SharePhoto-redis/target/classes/com/sharePhoto/redis/service/impl/RedisServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SharePhoto-sso/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/SharePhoto-sso/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SharePhoto-sso/share-photo-sso.iml" beforeDir="false" afterPath="$PROJECT_DIR$/SharePhoto-sso/share-photo-sso.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SharePhoto-sso/src/main/java/com/sharePhoto/sso/SSOApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/SharePhoto-sso/src/main/java/com/sharePhoto/sso/SSOApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SharePhoto-sso/src/main/java/com/sharePhoto/sso/consumer/RedisServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/SharePhoto-sso/src/main/java/com/sharePhoto/sso/consumer/RedisServer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SharePhoto-sso/src/main/java/com/sharePhoto/sso/controller/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/SharePhoto-sso/src/main/java/com/sharePhoto/sso/controller/SSOController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SharePhoto-sso/src/main/java/com/sharePhoto/sso/dao/UserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/SharePhoto-sso/src/main/java/com/sharePhoto/sso/dao/UserMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SharePhoto-sso/src/main/java/com/sharePhoto/sso/service/LoginService.java" beforeDir="false" afterPath="$PROJECT_DIR$/SharePhoto-sso/src/main/java/com/sharePhoto/sso/service/SSOService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SharePhoto-sso/src/main/java/com/sharePhoto/sso/service/impl/LoginServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/SharePhoto-sso/src/main/java/com/sharePhoto/sso/service/impl/SSOServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SharePhoto-sso/src/main/java/com/sharePhoto/sso/utils/GeneratorPassword.java" beforeDir="false" afterPath="$PROJECT_DIR$/SharePhoto-common/src/main/java/com/sharePhoto/common/GeneratorPassword.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SharePhoto-sso/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/SharePhoto-sso/src/main/resources/bootstrap.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SharePhoto-sso/src/main/resources/mapper/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/SharePhoto-sso/src/main/resources/mapper/UserMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SharePhoto-sso/target/classes/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/SharePhoto-sso/target/classes/bootstrap.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SharePhoto-sso/target/classes/com/sharePhoto/sso/SSOApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/SharePhoto-sso/target/classes/com/sharePhoto/sso/SSOApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SharePhoto-sso/target/classes/com/sharePhoto/sso/consumer/RedisServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/SharePhoto-sso/target/classes/com/sharePhoto/sso/consumer/RedisServer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SharePhoto-sso/target/classes/com/sharePhoto/sso/controller/LoginController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SharePhoto-sso/target/classes/com/sharePhoto/sso/dao/UserMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/SharePhoto-sso/target/classes/com/sharePhoto/sso/dao/UserMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SharePhoto-sso/target/classes/com/sharePhoto/sso/service/LoginService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SharePhoto-sso/target/classes/com/sharePhoto/sso/service/impl/LoginServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SharePhoto-sso/target/classes/com/sharePhoto/sso/utils/GeneratorPassword.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SharePhoto-sso/target/classes/mapper/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/SharePhoto-sso/target/classes/mapper/UserMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SharePhoto-zipkin/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/SharePhoto-zipkin/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SharePhoto-zipkin/share-photo-zipkin.iml" beforeDir="false" afterPath="$PROJECT_DIR$/SharePhoto-zipkin/share-photo-zipkin.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SharePhoto-zipkin/src/main/java/com/sharePhoto/zipkin/ZipkinApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/SharePhoto-zipkin/src/main/java/com/sharePhoto/zipkin/ZipkinApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SharePhoto-zipkin/target/classes/com/sharePhoto/zipkin/ZipkinApplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SharePhoto-zuul/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/SharePhoto-zuul/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SharePhoto-zuul/share-photo-zuul.iml" beforeDir="false" afterPath="$PROJECT_DIR$/SharePhoto-zuul/share-photo-zuul.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SharePhoto-zuul/src/main/java/com/sharePhoto/zuul/ZuulApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/SharePhoto-zuul/src/main/java/com/sharePhoto/zuul/ZuulApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SharePhoto-zuul/src/main/resources/bootstrap-prod.yml" beforeDir="false" afterPath="$PROJECT_DIR$/SharePhoto-confiuration/share-photo-redis-prod.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SharePhoto-zuul/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/SharePhoto-zuul/src/main/resources/bootstrap.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SharePhoto-zuul/target/classes/bootstrap-prod.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SharePhoto-zuul/target/classes/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/SharePhoto-zuul/target/classes/bootstrap.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SharePhoto-zuul/target/classes/com/sharePhoto/zuul/ZuulApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/SharePhoto-zuul/target/classes/com/sharePhoto/zuul/ZuulApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FrontEnd/src/components/NavBar.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../FrontEnd/src/components/NavBar.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FrontEnd/src/views/Index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../FrontEnd/src/views/Index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SharePhoto-tiny-service/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/SharePhoto-tiny-service/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FrontEnd/config/prod.env.js" beforeDir="false" afterPath="$PROJECT_DIR$/../FrontEnd/config/prod.env.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/SharePhoto-dependencies/target/" />
     <ignored path="$PROJECT_DIR$/SharePhoto-redis/target/" />
@@ -187,36 +32,9 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SharePhoto-eureka/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="55" selection-start-line="55" selection-end-line="66" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SharePhoto-common/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="530">
-              <caret line="47" column="19" selection-start-line="47" selection-start-column="19" selection-end-line="47" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SharePhoto-common-service/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="239">
-              <caret line="102" column="28" selection-start-line="102" selection-start-column="28" selection-end-line="102" selection-end-column="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/SharePhoto-dataFaker/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="182">
+            <state relative-caret-position="1007">
               <caret line="53" selection-start-line="53" selection-end-line="53" />
             </state>
           </provider>
@@ -225,7 +43,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/SharePhoto-redis/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="423">
+            <state relative-caret-position="1292">
               <caret line="68" selection-start-line="68" selection-end-line="68" />
             </state>
           </provider>
@@ -234,7 +52,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/SharePhoto-sso/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="398">
+            <state relative-caret-position="1007">
               <caret line="53" selection-start-line="53" selection-end-line="53" />
             </state>
           </provider>
@@ -243,17 +61,44 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/SharePhoto-tiny-service/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="423">
+            <state relative-caret-position="201">
               <caret line="81" selection-start-line="81" selection-end-line="81" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/SharePhoto-tiny-service/src/main/resources/bootstrap.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="76">
+              <caret line="4" column="36" selection-start-line="4" selection-start-column="36" selection-end-line="4" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SharePhoto-confiuration/share-photo-tiny-service-prod.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="38">
+              <caret line="2" column="10" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SharePhoto-zuul/src/main/resources/bootstrap.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="76">
+              <caret line="4" column="19" selection-end-line="6" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/SharePhoto-zuul/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="448">
-              <caret line="87" column="4" selection-start-line="87" selection-start-column="4" selection-end-line="87" selection-end-column="4" />
+            <state relative-caret-position="202">
+              <caret line="87" selection-start-line="87" selection-end-line="87" />
             </state>
           </provider>
         </entry>
@@ -261,7 +106,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/SharePhoto-dataFaker/src/main/java/com/sharePhoto/dataFaker/services/generateData/GenerateFakeDataImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1870">
+            <state relative-caret-position="855">
               <caret line="61" column="49" selection-start-line="61" selection-start-column="49" selection-end-line="61" selection-end-column="49" />
             </state>
           </provider>
@@ -270,7 +115,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/SharePhoto-dataFaker/src/main/resources/bootstrap.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="130">
+            <state relative-caret-position="627">
               <caret line="33" column="50" selection-start-line="33" selection-start-column="50" selection-end-line="33" selection-end-column="50" />
             </state>
           </provider>
@@ -305,8 +150,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/SharePhoto-sso/src/main/java/com/sharePhoto/sso/read/ReadInterceptor.java" />
-        <option value="$PROJECT_DIR$/SharePhoto-common-service/src/main/java/com/sharePhoto/common/service/ReadWriteSplittingService/ReadInterceptor.java" />
         <option value="$PROJECT_DIR$/SharePhoto-sso/src/main/java/com/sharePhoto/sso/aop/Write.java" />
         <option value="$PROJECT_DIR$/SharePhoto-sso/src/main/java/com/sharePhoto/sso/aop/AspectConfig.java" />
         <option value="$PROJECT_DIR$/SharePhoto-sso/src/main/java/com/sharePhoto/sso/config/DataSourceConfig.java" />
@@ -356,6 +199,8 @@
         <option value="$PROJECT_DIR$/SharePhoto-sso/pom.xml" />
         <option value="$PROJECT_DIR$/SharePhoto-tiny-service/pom.xml" />
         <option value="$PROJECT_DIR$/SharePhoto-zuul/pom.xml" />
+        <option value="$PROJECT_DIR$/SharePhoto-confiuration/share-photo-tiny-service-prod.yml" />
+        <option value="$PROJECT_DIR$/SharePhoto-tiny-service/src/main/resources/bootstrap.yml" />
       </list>
     </option>
   </component>
@@ -401,8 +246,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -413,17 +256,83 @@
             <path>
               <item name="BackEnd" type="b2602c69:ProjectViewProjectNode" />
               <item name="BackEnd" type="462c0819:PsiDirectoryNode" />
-              <item name="SharePhoto-common-service" type="462c0819:PsiDirectoryNode" />
+              <item name="SharePhoto-confiuration" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BackEnd" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BackEnd" type="462c0819:PsiDirectoryNode" />
+              <item name="SharePhoto-tiny-service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BackEnd" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BackEnd" type="462c0819:PsiDirectoryNode" />
+              <item name="SharePhoto-tiny-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BackEnd" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BackEnd" type="462c0819:PsiDirectoryNode" />
+              <item name="SharePhoto-tiny-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BackEnd" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BackEnd" type="462c0819:PsiDirectoryNode" />
+              <item name="SharePhoto-tiny-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BackEnd" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BackEnd" type="462c0819:PsiDirectoryNode" />
+              <item name="SharePhoto-tiny-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BackEnd" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BackEnd" type="462c0819:PsiDirectoryNode" />
+              <item name="SharePhoto-tiny-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="BackEnd" type="b2602c69:ProjectViewProjectNode" />
               <item name="BackEnd" type="462c0819:PsiDirectoryNode" />
               <item name="SharePhoto-zuul" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="BackEnd" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BackEnd" type="462c0819:PsiDirectoryNode" />
+              <item name="SharePhoto-zuul" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BackEnd" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BackEnd" type="462c0819:PsiDirectoryNode" />
+              <item name="SharePhoto-zuul" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BackEnd" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BackEnd" type="462c0819:PsiDirectoryNode" />
+              <item name="SharePhoto-zuul" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -433,7 +342,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1559632116253" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1559632521913" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/SharePhoto-tiny-service/pom.xml" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -586,7 +495,8 @@
       <workItem from="1559552874873" duration="10146000" />
       <workItem from="1559569379300" duration="6877000" />
       <workItem from="1559605158460" duration="4570000" />
-      <workItem from="1559621052204" duration="10331000" />
+      <workItem from="1559621052204" duration="10939000" />
+      <workItem from="1559635310088" duration="644000" />
     </task>
     <servers />
   </component>
@@ -623,13 +533,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="68708000" />
+    <option name="totallyTimeSpent" value="69960000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2689394" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27272728" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -800,12 +710,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SharePhoto-dataFaker/src/main/java/com/sharePhoto/dataFaker/services/ReadWriteSplittingService/MyBatisConfig.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SharePhoto-dataFaker/src/main/java/com/sharePhoto/dataFaker/services/ReadWriteSplittingService/DataSourceConfig.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/SharePhoto-dataFaker/src/main/java/com/sharePhoto/dataFaker/services/ReadWriteSplittingService/MyBatisConfig.java" />
+    <entry file="file://$PROJECT_DIR$/SharePhoto-dataFaker/src/main/java/com/sharePhoto/dataFaker/services/ReadWriteSplittingService/DataSourceConfig.java" />
     <entry file="file://$PROJECT_DIR$/SharePhoto-dataFaker/src/main/java/com/sharePhoto/dataFaker/dataFakerApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
@@ -813,59 +719,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SharePhoto-dataFaker/src/main/java/com/sharePhoto/dataFaker/services/ReadWriteSplittingService/DataSourceAop.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#804#805#0" expanded="true" />
-            <element signature="e#843#844#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SharePhoto-common-service/src/main/java/com/sharePhoto/common/service/ReadWriteSplittingService/DBContextHolder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SharePhoto-common-service/src/main/java/com/sharePhoto/common/service/ReadWriteSplittingService/DBTypeEnum.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="12" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SharePhoto-common-service/src/main/java/com/sharePhoto/common/service/ReadWriteSplittingService/MyRoutingDataSource.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SharePhoto-common-service/src/main/java/com/sharePhoto/common/service/ReadWriteSplittingService/Read.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="12" column="18" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SharePhoto-common-service/src/main/java/com/sharePhoto/common/service/ReadWriteSplittingService/Write.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" column="18" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/SharePhoto-dataFaker/src/main/java/com/sharePhoto/dataFaker/services/ReadWriteSplittingService/DataSourceAop.java" />
+    <entry file="file://$PROJECT_DIR$/SharePhoto-common-service/src/main/java/com/sharePhoto/common/service/ReadWriteSplittingService/Read.java" />
+    <entry file="file://$PROJECT_DIR$/SharePhoto-common-service/src/main/java/com/sharePhoto/common/service/ReadWriteSplittingService/Write.java" />
     <entry file="file://$PROJECT_DIR$/SharePhoto-sso/src/main/java/com/sharePhoto/sso/dao/UserMapper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="74">
@@ -1008,13 +864,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SharePhoto-zuul/src/main/resources/bootstrap.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="6" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/SharePhoto-confiuration/share-photo-redis-prod.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="454">
@@ -1038,71 +887,92 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/SharePhoto-eureka/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
+        <state relative-caret-position="1045">
           <caret line="55" selection-start-line="55" selection-end-line="66" selection-end-column="19" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/SharePhoto-common/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="530">
+        <state relative-caret-position="893">
           <caret line="47" column="19" selection-start-line="47" selection-start-column="19" selection-end-line="47" selection-end-column="19" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/SharePhoto-common-service/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="239">
+        <state relative-caret-position="1938">
           <caret line="102" column="28" selection-start-line="102" selection-start-column="28" selection-end-line="102" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SharePhoto-dataFaker/src/main/java/com/sharePhoto/dataFaker/services/generateData/GenerateFakeDataImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1870">
-          <caret line="61" column="49" selection-start-line="61" selection-start-column="49" selection-end-line="61" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SharePhoto-dataFaker/src/main/resources/bootstrap.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="33" column="50" selection-start-line="33" selection-start-column="50" selection-end-line="33" selection-end-column="50" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/SharePhoto-dataFaker/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
+        <state relative-caret-position="1007">
           <caret line="53" selection-start-line="53" selection-end-line="53" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/SharePhoto-redis/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="423">
+        <state relative-caret-position="1292">
           <caret line="68" selection-start-line="68" selection-end-line="68" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/SharePhoto-sso/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="398">
+        <state relative-caret-position="1007">
           <caret line="53" selection-start-line="53" selection-end-line="53" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SharePhoto-tiny-service/pom.xml">
+    <entry file="file://$PROJECT_DIR$/SharePhoto-dataFaker/src/main/java/com/sharePhoto/dataFaker/services/generateData/GenerateFakeDataImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="423">
-          <caret line="81" selection-start-line="81" selection-end-line="81" />
+        <state relative-caret-position="855">
+          <caret line="61" column="49" selection-start-line="61" selection-start-column="49" selection-end-line="61" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SharePhoto-dataFaker/src/main/resources/bootstrap.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="627">
+          <caret line="33" column="50" selection-start-line="33" selection-start-column="50" selection-end-line="33" selection-end-column="50" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/SharePhoto-zuul/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="448">
-          <caret line="87" column="4" selection-start-line="87" selection-start-column="4" selection-end-line="87" selection-end-column="4" />
+        <state relative-caret-position="202">
+          <caret line="87" selection-start-line="87" selection-end-line="87" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SharePhoto-tiny-service/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="201">
+          <caret line="81" selection-start-line="81" selection-end-line="81" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SharePhoto-zuul/src/main/resources/bootstrap.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="19" selection-end-line="6" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SharePhoto-confiuration/share-photo-tiny-service-prod.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="10" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SharePhoto-tiny-service/src/main/resources/bootstrap.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="36" selection-start-line="4" selection-start-column="36" selection-end-line="4" selection-end-column="36" />
         </state>
       </provider>
     </entry>
