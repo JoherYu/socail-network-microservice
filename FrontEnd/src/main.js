@@ -12,6 +12,7 @@ import $ from 'jquery'
 import axios from 'axios'
 
 axios.defaults.withCredentials=true
+axios.defaults.baseURL = process.env.API_HOST;
 
 Vue.prototype.setLocalStorage = setLocalStorage
 Vue.prototype.getLocalStorage = getLocalStorage
