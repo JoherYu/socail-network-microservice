@@ -9,7 +9,7 @@ import java.net.URLEncoder;
 
 /**
  * Cookie 工具类
- * <p>Title: com.sharePhoto.common.CookieUtils</p>
+ * <p>Title: CookieUtils</p>
  * <p>Description: </p>
  *
  * @author Lusifer

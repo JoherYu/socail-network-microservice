@@ -1,0 +1,36 @@
+spring:
+  application:
+    name: share-photo-redis
+  boot:
+    admin:
+      client:
+        url: http://39.106.36.194:7010
+  zipkin:
+    base-url: http://39.106.36.194:7020
+  redis:
+    lettuce:
+      pool:
+        max-active: 8
+        max-idle: 8
+        max-wait: -1ms
+        min-idle: 0
+    sentinel:
+      master: mymaster
+      nodes: 39.106.36.194:26379,39.106.36.194:26380,39.106.36.194:26381
+
+server:
+  port: 7060
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://39.106.36.194:7000/eureka/,http://39.106.36.194:7001/eureka/,http://39.106.36.194:7002/eureka/
+
+management:
+  endpoint:
+    health:
+      show-details: always
+  endpoints:
+    web:
+      exposure:
+        include: health,info

@@ -54,6 +54,19 @@
         </dependency>
     </dependencies>
 
+    <repositories>
+        <repository>
+            <id>github-maven-snapshot-repository</id>
+            <name>github-maven-snapshot-repository</name>
+            <url>https://raw.github.com/JoherYu/maven-private/snapshot/</url>
+        </repository>
+        <repository>
+            <id>github-maven-release-repository</id>
+            <name>github-maven-release-repository</name>
+            <url>https://raw.github.com/JoherYu/maven-private/release/</url>
+        </repository>
+    </repositories>
+
     <build>
         <plugins>
             <plugin>

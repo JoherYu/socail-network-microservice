@@ -9,13 +9,12 @@
         <option value="$PROJECT_DIR$/SharePhoto-admin/pom.xml" />
         <option value="$PROJECT_DIR$/SharePhoto-common/pom.xml" />
         <option value="$PROJECT_DIR$/SharePhoto-common-service/pom.xml" />
-        <option value="$PROJECT_DIR$/SharePhoto-config/pom.xml" />
+        <option value="$PROJECT_DIR$/SharePhoto-dataFaker/pom.xml" />
         <option value="$PROJECT_DIR$/SharePhoto-dependencies/pom.xml" />
-        <option value="$PROJECT_DIR$/SharePhoto-eureka/pom.xml" />
         <option value="$PROJECT_DIR$/SharePhoto-redis/pom.xml" />
         <option value="$PROJECT_DIR$/SharePhoto-sso/pom.xml" />
-        <option value="$PROJECT_DIR$/SharePhoto-zipkin/pom.xml" />
         <option value="$PROJECT_DIR$/SharePhoto-zuul/pom.xml" />
+        <option value="$PROJECT_DIR$/SharePhoto-tiny-service/pom.xml" />
       </list>
     </option>
   </component>

@@ -9,11 +9,10 @@
         <module name="share-photo-admin" />
         <module name="share-photo-common" />
         <module name="share-photo-common-service" />
-        <module name="share-photo-config" />
-        <module name="share-photo-eureka" />
+        <module name="share-photo-dataFaker" />
         <module name="share-photo-redis" />
         <module name="share-photo-sso" />
-        <module name="share-photo-zipkin" />
+        <module name="share-photo-tiny-service" />
         <module name="share-photo-zuul" />
       </profile>
     </annotationProcessing>
@@ -21,12 +20,11 @@
       <module name="share-photo-admin" target="1.8" />
       <module name="share-photo-common" target="1.8" />
       <module name="share-photo-common-service" target="1.8" />
-      <module name="share-photo-config" target="1.8" />
+      <module name="share-photo-dataFaker" target="1.8" />
       <module name="share-photo-dependencies" target="1.8" />
-      <module name="share-photo-eureka" target="1.8" />
       <module name="share-photo-redis" target="1.8" />
       <module name="share-photo-sso" target="1.8" />
-      <module name="share-photo-zipkin" target="1.8" />
+      <module name="share-photo-tiny-service" target="1.8" />
       <module name="share-photo-zuul" target="1.8" />
     </bytecodeTargetLevel>
   </component>
@@ -35,11 +33,10 @@
       <module name="share-photo-admin" options="-parameters" />
       <module name="share-photo-common" options="-parameters" />
       <module name="share-photo-common-service" options="-parameters" />
-      <module name="share-photo-config" options="-parameters" />
-      <module name="share-photo-eureka" options="-parameters" />
+      <module name="share-photo-dataFaker" options="-parameters" />
       <module name="share-photo-redis" options="-parameters" />
       <module name="share-photo-sso" options="-parameters" />
-      <module name="share-photo-zipkin" options="-parameters" />
+      <module name="share-photo-tiny-service" options="-parameters" />
       <module name="share-photo-zuul" options="-parameters" />
     </option>
   </component>

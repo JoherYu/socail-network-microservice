@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.sharePhoto.dataFaker.dao.CollectMapper">
+    <resultMap id="BaseResultMap" type="com.sharePhoto.dataFaker.entity.Collect">
+        <id column="collector_id" jdbcType="INTEGER" property="collectorId"/>
+        <id column="collected_id" jdbcType="INTEGER" property="collectedId"/>
+        <result column="timestamp" jdbcType="TIMESTAMP" property="timestamp"/>
+    </resultMap>
+    <sql id="Base_Column_List">
+    collector_id, collected_id, timestamp
+    </sql>
+    <insert id="insert" parameterType="com.sharePhoto.dataFaker.entity.Collect">
+      insert into collect (collector_id, collected_id)
+      values (#{currentUserId,jdbcType=INTEGER}, #{photoId,jdbcType=INTEGER} )
+    </insert>
+</mapper>

@@ -1,3 +1,6 @@
-com\sharePhoto\common\service\entity\Photo.class
 com\sharePhoto\common\service\entity\Tag.class
 com\sharePhoto\common\service\entity\User.class
+com\sharePhoto\common\service\ReadWriteSplittingService\MyRoutingDataSource.class
+com\sharePhoto\common\service\entity\Photo.class
+com\sharePhoto\common\service\ReadWriteSplittingService\DBContextHolder.class
+com\sharePhoto\common\service\ReadWriteSplittingService\DBTypeEnum.class

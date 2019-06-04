@@ -2,9 +2,8 @@ package com.sharePhoto.sso.dao;
 
 
 import com.sharePhoto.common.service.entity.User;
-import org.springframework.stereotype.Repository;
 
-@Repository("user")
+
 public interface UserMapper {
     // 根据电子邮箱查询用户名
     String selectUsernameByEmail(String email);

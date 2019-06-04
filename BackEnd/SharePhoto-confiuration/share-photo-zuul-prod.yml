@@ -1,0 +1,53 @@
+spring:
+  application:
+    name: share-photo-zuul
+  zipkin:
+    base-url: http://39.106.36.194:7020
+  boot:
+    admin:
+      client:
+        url: http://39.106.36.194:7010
+  http:
+    encoding:
+      charset: UTF-8
+      enabled: true
+      force: true
+server:
+  port: 7030
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://39.106.36.194:7000/eureka/,http://39.106.36.194:7001/eureka/,http://39.106.36.194:7002/eureka/
+
+management:
+  endpoint:
+    health:
+      show-details: always
+  endpoints:
+    web:
+      exposure:
+        include: health,info
+
+zuul:
+  routes:
+    sso:
+      path: /session
+      serviceId: share-photo-sso
+    csrf:
+      path: /csrfToken
+      serviceId: share-photo-tiny-service
+
+  host:
+    connect-timeout-millis: 60000
+    socket-timeout-millis: 60000
+  sensitive-headers: Access-Control-Allow-Origin
+  ignored-headers: Access-Control-Allow-Origin,H-APP-Id,Token,APPToken
+
+ribbon:
+  ReadTimeout: 60000
+  ConnectTimeout: 60000
+
+feign:
+  hystrix:
+    enabled: true

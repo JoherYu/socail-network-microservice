@@ -1,0 +1,17 @@
+version: '3.1'
+services:
+  zuul-1:
+    restart: always
+    build: ./
+    container_name: zuul-1
+    ports:
+      - 7030:7030
+
+  zuul-2:
+    restart: always
+    build: ./
+    container_name: zuul-2
+    ports:
+      - 7031:7030
+
+

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.sharePhoto.dataFaker.dao.CommentMapper">
+    <resultMap id="BaseResultMap" type="com.sharePhoto.dataFaker.entity.Comment">
+        <id column="id" jdbcType="INTEGER" property="id"/>
+        <result column="timestamp" jdbcType="TIMESTAMP" property="timestamp"/>
+        <result column="flag" jdbcType="SMALLINT" property="flag"/>
+        <result column="replied_id" jdbcType="INTEGER" property="repliedId"/>
+        <result column="author_id" jdbcType="INTEGER" property="authorId"/>
+        <result column="photo_id" jdbcType="INTEGER" property="photoId"/>
+    </resultMap>
+    <resultMap extends="BaseResultMap" id="ResultMapWithBLOBs" type="com.sharePhoto.dataFaker.entity.Comment">
+        <result column="body" jdbcType="LONGVARCHAR" property="body"/>
+    </resultMap>
+    <sql id="Base_Column_List">
+    id, timestamp, flag, replied_id, author_id, photo_id
+     </sql>
+    <sql id="Blob_Column_List">
+    body
+    </sql>
+    <insert id="insertSelective" parameterType="com.sharePhoto.dataFaker.entity.Comment">
+        insert into comment
+        <trim prefix="(" suffix=")" suffixOverrides=",">
+            <if test="repliedId != 0">
+                replied_id,
+            </if>
+            <if test="authorId != null">
+                author_id,
+            </if>
+            <if test="photoId != null">
+                photo_id,
+            </if>
+            <if test="body != null">
+                body,
+            </if>
+        </trim>
+        <trim prefix="values (" suffix=")" suffixOverrides=",">
+            <if test="repliedId != 0">
+                #{repliedId,jdbcType=INTEGER},
+            </if>
+            <if test="authorId != null">
+                #{authorId,jdbcType=INTEGER},
+            </if>
+            <if test="photoId != null">
+                #{photoId,jdbcType=INTEGER},
+            </if>
+            <if test="body != null">
+                #{body,jdbcType=LONGVARCHAR},
+            </if>
+        </trim>
+    </insert>
+</mapper>

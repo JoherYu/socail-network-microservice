@@ -69,6 +69,6 @@
       select ori_username from user  where username = #{username}
     </select>
     <select id="selectLoginInfo" resultType="com.sharePhoto.common.service.entity.User">
-      select user.id, email, username, ori_username, password_hash, active from user where email = #{email}
+      select id, email, username, ori_username, password_hash, active from user where email = #{email}
     </select>
 </mapper>
