@@ -270,6 +270,7 @@
                     rememberMe: res.rememberMe,
                     isAdmin: res.isAdmin
                     })
+                    this.$store.commit('StoreToken', res.csrfToken)
                 
                   if (this.$store.state.Nav.RememberUser){
                     this.setLocalStorage("username",this.$store.state.Nav.username)

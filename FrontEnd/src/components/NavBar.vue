@@ -82,8 +82,12 @@
               }
             }).then((result)=>{
               var res = result.data
-              this.$store.commit('FlashMessage', res)
+              this.$store.commit('FlashMessage', {
+                message: res.message,
+                type: res.type
+                })
               if(res.type == "success"){
+              this.$store.commit('StoreToken', res.csrfToken)
               sessionStorage.clear()
               localStorage.clear()
               this.$store.commit('Reset')
