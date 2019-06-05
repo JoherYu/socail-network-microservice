@@ -7,6 +7,16 @@ spring:
     admin:
       client:
         url: http://39.106.36.194:7010
+  rabbitmq:
+    host: 39.106.36.194
+    port: 5672
+    username: rabbit
+    password: 123456
+    listener:
+      simple:
+        acknowledge-mode: manual
+        retry:
+          enabled: true
 
 server:
   port: 7081
