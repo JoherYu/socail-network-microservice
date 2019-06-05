@@ -104,25 +104,21 @@ public class SSOServiceImpl implements SSOService {
         boolean rememberMe = (boolean) data.get("rememberMe");
         if (!rememberMe){
             try {
-                redisServer.put(token, json, 60 * 60 * 24);
                 redisServer.put(CSRFtoken, CSRFjson, 60 * 60 * 24);
+                redisServer.put(token, json, 60 * 60 * 24);
                 CookieUtils.setCookie(request, response, "token", token);
             } catch (Exception e) {
                 e.printStackTrace();
-                message.put("message", "服务错误，请稍后再试");
-                message.put("type", "warning");
-                return message;
+                throw new RuntimeException();
             }
         } else {
             try {
-                redisServer.put(token, json, 60 * 60 * 24 * 90);
                 redisServer.put(CSRFtoken, CSRFjson, 60 * 60 * 90);
+                redisServer.put(token, json, 60 * 60 * 24 * 90);
                 CookieUtils.setCookie(request, response, "token", token, 60 * 60 * 24 * 90);
             } catch (Exception e) {
                 e.printStackTrace();
-                message.put("message", "服务错误，请稍后再试");
-                message.put("type", "warning");
-                return message;
+                throw new RuntimeException();
             }
         }
 
@@ -162,9 +158,7 @@ public class SSOServiceImpl implements SSOService {
             redisServer.delete(aa);
         } catch (Exception e) {
             e.printStackTrace();
-            message.put("message", "服务错误，请稍后再试");
-            message.put("type", "warning");
-            return message;
+            throw new RuntimeException();
         }
 
         String CSRFtoken = UUID.randomUUID().toString();
@@ -178,9 +172,7 @@ public class SSOServiceImpl implements SSOService {
             redisServer.put(CSRFtoken, CSRFjson, 60 * 60 * 24);
         } catch (Exception e) {
             e.printStackTrace();
-            message.put("message", "服务错误，请稍后再试");
-            message.put("type", "warning");
-            return message;
+            throw new RuntimeException();
         }
         Map<String, Object> result = new HashMap<>();
         result.put("message","您已成功退出");
