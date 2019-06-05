@@ -2,20 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ca4df540-2e1a-4d31-846b-e360900efc3c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/SharePhoto-zuul/src/main/java/com/sharePhoto/zuul/exceptionHandler/CommonExceptionHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SharePhoto-config/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/SharePhoto-config/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SharePhoto-confiuration/share-photo-admin-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/SharePhoto-confiuration/share-photo-admin-dev.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SharePhoto-confiuration/share-photo-admin-prod.yml" beforeDir="false" afterPath="$PROJECT_DIR$/SharePhoto-confiuration/share-photo-admin-prod.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SharePhoto-confiuration/share-photo-eureka-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/SharePhoto-confiuration/share-photo-eureka-dev.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SharePhoto-confiuration/share-photo-eureka-prod.yml" beforeDir="false" afterPath="$PROJECT_DIR$/SharePhoto-confiuration/share-photo-eureka-prod.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SharePhoto-confiuration/share-photo-redis-prod.yml" beforeDir="false" afterPath="$PROJECT_DIR$/SharePhoto-confiuration/share-photo-redis-prod.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SharePhoto-confiuration/share-photo-sso-prod.yml" beforeDir="false" afterPath="$PROJECT_DIR$/SharePhoto-confiuration/share-photo-sso-prod.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SharePhoto-confiuration/share-photo-zipkin-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/SharePhoto-confiuration/share-photo-zipkin-dev.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SharePhoto-confiuration/share-photo-zipkin-prod.yml" beforeDir="false" afterPath="$PROJECT_DIR$/SharePhoto-confiuration/share-photo-zipkin-prod.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SharePhoto-confiuration/share-photo-zuul-prod.yml" beforeDir="false" afterPath="$PROJECT_DIR$/SharePhoto-confiuration/share-photo-zuul-prod.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SharePhoto-sso/src/main/java/com/sharePhoto/sso/service/impl/SSOServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/SharePhoto-sso/src/main/java/com/sharePhoto/sso/service/impl/SSOServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SharePhoto-sso/target/classes/com/sharePhoto/sso/service/impl/SSOServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/SharePhoto-sso/target/classes/com/sharePhoto/sso/service/impl/SSOServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SharePhoto-confiuration/share-photo-tiny-service-prod.yml" beforeDir="false" afterPath="$PROJECT_DIR$/SharePhoto-confiuration/share-photo-tiny-service-prod.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SharePhoto-eureka/docker/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/SharePhoto-eureka/docker/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SharePhoto-eureka/docker/share-photo-eureka-1.0.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SharePhoto-eureka/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/SharePhoto-eureka/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SharePhoto-zipkin/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/SharePhoto-zipkin/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/SharePhoto-dependencies/target/" />
     <ignored path="$PROJECT_DIR$/SharePhoto-redis/target/" />
@@ -44,91 +36,87 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/SharePhoto-confiuration/share-photo-tiny-service-prod.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="494">
-              <caret line="26" selection-start-line="26" selection-end-line="27" selection-end-column="27" />
+            <state relative-caret-position="347">
+              <caret line="28" column="4" selection-start-line="28" selection-start-column="4" selection-end-line="28" selection-end-column="30" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SharePhoto-confiuration/share-photo-zipkin-dev.yml">
+        <entry file="file://$PROJECT_DIR$/SharePhoto-zuul/src/main/resources/bootstrap.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="17" selection-start-line="17" selection-end-line="17" />
+            <state relative-caret-position="76">
+              <caret line="4" column="19" selection-end-line="6" selection-end-column="19" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SharePhoto-confiuration/share-photo-zipkin-prod.yml">
+        <entry file="file://$PROJECT_DIR$/SharePhoto-eureka/docker/docker-compose.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="17" selection-start-line="17" selection-end-line="17" />
+            <state relative-caret-position="399">
+              <caret line="21" column="16" lean-forward="true" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SharePhoto-redis/src/main/resources/bootstrap.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="114">
+              <caret line="6" column="19" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/SharePhoto-confiuration/share-photo-zuul-prod.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="437">
-              <caret line="23" selection-start-line="23" selection-end-line="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SharePhoto-confiuration/share-photo-admin-dev.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="15" selection-start-line="15" selection-end-line="15" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SharePhoto-confiuration/share-photo-admin-prod.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="15" selection-start-line="15" selection-end-line="15" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SharePhoto-confiuration/share-photo-eureka-dev.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="15" column="27" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/SharePhoto-confiuration/share-photo-redis-prod.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="410">
-              <caret line="29" selection-start-line="29" selection-end-line="29" />
+            <state relative-caret-position="271">
+              <caret line="30" column="4" selection-start-line="30" selection-start-column="4" selection-end-line="30" selection-end-column="4" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SharePhoto-confiuration/share-photo-sso-prod.yml">
+        <entry file="file://$PROJECT_DIR$/SharePhoto-redis/src/main/java/com/sharePhoto/redis/RedisApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="505">
-              <caret line="68" selection-start-line="68" selection-end-line="68" />
+            <state relative-caret-position="209">
+              <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SharePhoto-confiuration/share-photo-eureka-prod.yml">
+        <entry file="file://$PROJECT_DIR$/SharePhoto-zipkin/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="15" column="27" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
+            <state relative-caret-position="380">
+              <caret line="32" column="21" selection-start-line="32" selection-start-column="21" selection-end-line="32" selection-end-column="21" />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SharePhoto-zuul/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1366">
+              <caret line="87" selection-start-line="87" selection-end-line="87" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SharePhoto-tiny-service/src/main/resources/bootstrap.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="76">
+              <caret line="4" column="36" selection-start-line="4" selection-start-column="36" selection-end-line="4" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SharePhoto-eureka/src/main/resources/bootstrap-prod.yml">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -160,9 +148,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/SharePhoto-common-service/src/main/java/com/sharePhoto/common/service/ReadWriteSplittingService/MyRoutingDataSource.java" />
-        <option value="$PROJECT_DIR$/SharePhoto-common-service/src/main/java/com/sharePhoto/common/service/ReadWriteSplittingService/DataSourceAop.java" />
-        <option value="$PROJECT_DIR$/SharePhoto-sso/src/main/java/com/sharePhoto/sso/aop/DataSourceAop.java" />
         <option value="$PROJECT_DIR$/SharePhoto-sso/src/main/java/com/sharePhoto/sso/aop/RWaop.java" />
         <option value="$PROJECT_DIR$/SharePhoto-sso/src/main/java/com/sharePhoto/sso/config/DataSourceAop.java" />
         <option value="$PROJECT_DIR$/SharePhoto-common-service/src/main/java/com/sharePhoto/common/service/ReadWriteSplittingService/Write.java" />
@@ -198,7 +183,6 @@
         <option value="$PROJECT_DIR$/SharePhoto-tiny-service/pom.xml" />
         <option value="$PROJECT_DIR$/SharePhoto-zuul/pom.xml" />
         <option value="$PROJECT_DIR$/SharePhoto-tiny-service/src/main/resources/bootstrap.yml" />
-        <option value="$PROJECT_DIR$/SharePhoto-confiuration/share-photo-tiny-service-prod.yml" />
         <option value="$PROJECT_DIR$/SharePhoto-config/pom.xml" />
         <option value="$PROJECT_DIR$/SharePhoto-sso/src/main/java/com/sharePhoto/sso/service/impl/SSOServiceImpl.java" />
         <option value="$PROJECT_DIR$/SharePhoto-zuul/src/main/java/com/sharePhoto/zuul/exceptionHandler/CommonExceptionHandler.java" />
@@ -206,11 +190,15 @@
         <option value="$PROJECT_DIR$/SharePhoto-confiuration/share-photo-admin-prod.yml" />
         <option value="$PROJECT_DIR$/SharePhoto-confiuration/share-photo-eureka-dev.yml" />
         <option value="$PROJECT_DIR$/SharePhoto-confiuration/share-photo-eureka-prod.yml" />
-        <option value="$PROJECT_DIR$/SharePhoto-confiuration/share-photo-redis-prod.yml" />
         <option value="$PROJECT_DIR$/SharePhoto-confiuration/share-photo-sso-prod.yml" />
         <option value="$PROJECT_DIR$/SharePhoto-confiuration/share-photo-zipkin-dev.yml" />
         <option value="$PROJECT_DIR$/SharePhoto-confiuration/share-photo-zipkin-prod.yml" />
         <option value="$PROJECT_DIR$/SharePhoto-confiuration/share-photo-zuul-prod.yml" />
+        <option value="$PROJECT_DIR$/SharePhoto-eureka/docker/docker-compose.yml" />
+        <option value="$PROJECT_DIR$/SharePhoto-eureka/pom.xml" />
+        <option value="$PROJECT_DIR$/SharePhoto-zipkin/pom.xml" />
+        <option value="$PROJECT_DIR$/SharePhoto-confiuration/share-photo-tiny-service-prod.yml" />
+        <option value="$PROJECT_DIR$/SharePhoto-confiuration/share-photo-redis-prod.yml" />
       </list>
     </option>
   </component>
@@ -272,6 +260,81 @@
             <path>
               <item name="BackEnd" type="b2602c69:ProjectViewProjectNode" />
               <item name="BackEnd" type="462c0819:PsiDirectoryNode" />
+              <item name="SharePhoto-eureka" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BackEnd" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BackEnd" type="462c0819:PsiDirectoryNode" />
+              <item name="SharePhoto-eureka" type="462c0819:PsiDirectoryNode" />
+              <item name="docker" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BackEnd" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BackEnd" type="462c0819:PsiDirectoryNode" />
+              <item name="SharePhoto-eureka" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BackEnd" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BackEnd" type="462c0819:PsiDirectoryNode" />
+              <item name="SharePhoto-eureka" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BackEnd" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BackEnd" type="462c0819:PsiDirectoryNode" />
+              <item name="SharePhoto-eureka" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BackEnd" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BackEnd" type="462c0819:PsiDirectoryNode" />
+              <item name="SharePhoto-redis" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BackEnd" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BackEnd" type="462c0819:PsiDirectoryNode" />
+              <item name="SharePhoto-redis" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BackEnd" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BackEnd" type="462c0819:PsiDirectoryNode" />
+              <item name="SharePhoto-redis" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BackEnd" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BackEnd" type="462c0819:PsiDirectoryNode" />
+              <item name="SharePhoto-redis" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BackEnd" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BackEnd" type="462c0819:PsiDirectoryNode" />
+              <item name="SharePhoto-redis" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="redis" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BackEnd" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BackEnd" type="462c0819:PsiDirectoryNode" />
+              <item name="SharePhoto-redis" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BackEnd" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BackEnd" type="462c0819:PsiDirectoryNode" />
               <item name="SharePhoto-tiny-service" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -310,9 +373,12 @@
               <item name="SharePhoto-tiny-service" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BackEnd" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BackEnd" type="462c0819:PsiDirectoryNode" />
+              <item name="SharePhoto-zipkin" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="BackEnd" type="b2602c69:ProjectViewProjectNode" />
@@ -359,6 +425,14 @@
               <item name="zuul" type="462c0819:PsiDirectoryNode" />
               <item name="exceptionHandler" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="BackEnd" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BackEnd" type="462c0819:PsiDirectoryNode" />
+              <item name="SharePhoto-zuul" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -373,7 +447,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1559708885330" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1559712223825" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/SharePhoto-tiny-service/pom.xml" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -416,7 +490,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.SSOApplication">
+  <component name="RunManager" selected="Spring Boot.RedisApplication">
     <configuration name="TinyServiceApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.sharePhoto.tiny.service.TinyServiceApplication" />
       <module name="share-photo-tiny-service" />
@@ -503,8 +577,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.AaTest.get" />
         <item itemvalue="Application.TinyServiceApplication" />
+        <item itemvalue="JUnit.AaTest.get" />
         <item itemvalue="JUnit.AATest.testRead" />
         <item itemvalue="JUnit.AATest" />
       </list>
@@ -529,7 +603,7 @@
       <workItem from="1559621052204" duration="10939000" />
       <workItem from="1559635310088" duration="5838000" />
       <workItem from="1559654573962" duration="704000" />
-      <workItem from="1559706869930" duration="2301000" />
+      <workItem from="1559706869930" duration="5312000" />
     </task>
     <servers />
   </component>
@@ -566,10 +640,11 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="78159000" />
+    <option name="totallyTimeSpent" value="81170000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28181818" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -666,17 +741,6 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/SharePhoto-dataFaker/src/main/java/com/sharePhoto/dataFaker/services/ReadWriteSplittingService/DataSourceConfig.java" />
-    <entry file="file://$PROJECT_DIR$/SharePhoto-dataFaker/src/main/java/com/sharePhoto/dataFaker/dataFakerApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="21" selection-start-line="21" selection-end-line="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SharePhoto-dataFaker/src/main/java/com/sharePhoto/dataFaker/services/ReadWriteSplittingService/DataSourceAop.java" />
-    <entry file="file://$PROJECT_DIR$/SharePhoto-common-service/src/main/java/com/sharePhoto/common/service/ReadWriteSplittingService/Read.java" />
-    <entry file="file://$PROJECT_DIR$/SharePhoto-common-service/src/main/java/com/sharePhoto/common/service/ReadWriteSplittingService/Write.java" />
     <entry file="file://$PROJECT_DIR$/SharePhoto-sso/src/main/java/com/sharePhoto/sso/dao/UserMapper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="74">
@@ -759,13 +823,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SharePhoto-eureka/docker/Dockerfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/SharePhoto-zuul/docker/docker-compose.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
@@ -809,20 +866,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="76">
           <caret line="4" column="27" selection-start-line="4" selection-start-column="27" selection-end-line="4" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SharePhoto-redis/src/main/resources/bootstrap.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="19" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SharePhoto-eureka/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1045">
-          <caret line="55" selection-start-line="55" selection-end-line="66" selection-end-column="19" />
         </state>
       </provider>
     </entry>
@@ -875,13 +918,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SharePhoto-zuul/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="226">
-          <caret line="87" selection-start-line="87" selection-end-line="87" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/SharePhoto-tiny-service/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="201">
@@ -889,24 +925,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SharePhoto-zuul/src/main/resources/bootstrap.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="19" selection-end-line="6" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/SharePhoto-tiny-service/src/main/java/com/sharePhoto/tiny/service/controller/TinyController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="266">
           <caret line="19" column="19" lean-forward="true" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SharePhoto-tiny-service/src/main/resources/bootstrap.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="36" selection-start-line="4" selection-start-column="36" selection-end-line="4" selection-end-column="36" />
         </state>
       </provider>
     </entry>
@@ -976,24 +998,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SharePhoto-confiuration/share-photo-redis-prod.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="410">
-          <caret line="29" selection-start-line="29" selection-end-line="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/SharePhoto-confiuration/share-photo-sso-prod.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="505">
           <caret line="68" selection-start-line="68" selection-end-line="68" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SharePhoto-confiuration/share-photo-tiny-service-prod.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="494">
-          <caret line="26" selection-start-line="26" selection-end-line="27" selection-end-column="27" />
         </state>
       </provider>
     </entry>
@@ -1011,10 +1019,97 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/SharePhoto-eureka/docker/Dockerfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="18" lean-forward="true" selection-end-line="5" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SharePhoto-config/src/main/resources/bootstrap-prod.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="20" column="8" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SharePhoto-eureka/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="19" column="18" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SharePhoto-zipkin/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="32" column="21" selection-start-line="32" selection-start-column="21" selection-end-line="32" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SharePhoto-zuul/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1366">
+          <caret line="87" selection-start-line="87" selection-end-line="87" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SharePhoto-eureka/src/main/resources/bootstrap-prod.yml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SharePhoto-tiny-service/src/main/resources/bootstrap.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="36" selection-start-line="4" selection-start-column="36" selection-end-line="4" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SharePhoto-zuul/src/main/resources/bootstrap.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="19" selection-end-line="6" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/SharePhoto-confiuration/share-photo-zuul-prod.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="23" selection-start-line="23" selection-end-line="23" />
+        <state relative-caret-position="-76">
+          <caret line="11" column="20" lean-forward="true" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SharePhoto-eureka/docker/docker-compose.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="21" column="16" lean-forward="true" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SharePhoto-redis/src/main/resources/bootstrap.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="19" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SharePhoto-redis/src/main/java/com/sharePhoto/redis/RedisApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SharePhoto-confiuration/share-photo-tiny-service-prod.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="347">
+          <caret line="28" column="4" selection-start-line="28" selection-start-column="4" selection-end-line="28" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SharePhoto-confiuration/share-photo-redis-prod.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="271">
+          <caret line="30" column="4" selection-start-line="30" selection-start-column="4" selection-end-line="30" selection-end-column="4" />
         </state>
       </provider>
     </entry>

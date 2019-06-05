@@ -26,6 +26,7 @@ eureka:
       defaultZone: http://39.106.36.194:7000/eureka/,http://39.106.36.194:7001/eureka/,http://39.106.36.194:7002/eureka/
   instance:
     prefer-ip-address: true
+    ip-address: 113.88.193.117
 
 feign:
   hystrix:

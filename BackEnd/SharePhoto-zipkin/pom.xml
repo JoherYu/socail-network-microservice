@@ -31,11 +31,6 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-actuator</artifactId>
         </dependency>
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-Test</artifactId>
-            <scope>Test</scope>
-        </dependency>
         <!-- Spring Boot End -->
 
         <!-- Spring Cloud Begin -->

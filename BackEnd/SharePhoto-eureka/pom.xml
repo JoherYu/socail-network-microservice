@@ -18,14 +18,6 @@
     <inceptionYear>2019-Now</inceptionYear>
 
     <dependencies>
-        <!-- Spring Boot Begin -->
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-Test</artifactId>
-            <scope>Test</scope>
-        </dependency>
-        <!-- Spring Boot End -->
-
         <!-- Spring Cloud Begin -->
         <dependency>
             <groupId>org.springframework.cloud</groupId>
