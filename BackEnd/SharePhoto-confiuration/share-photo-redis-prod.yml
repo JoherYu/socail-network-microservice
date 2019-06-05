@@ -28,7 +28,7 @@ eureka:
   instance:
     prefer-ip-address: true
     ip-address: 113.88.193.117
-    
+
 management:
   endpoint:
     health:

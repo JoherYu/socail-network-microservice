@@ -3,11 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="ca4df540-2e1a-4d31-846b-e360900efc3c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/SharePhoto-confiuration/share-photo-redis-prod.yml" beforeDir="false" afterPath="$PROJECT_DIR$/SharePhoto-confiuration/share-photo-redis-prod.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SharePhoto-confiuration/share-photo-tiny-service-prod.yml" beforeDir="false" afterPath="$PROJECT_DIR$/SharePhoto-confiuration/share-photo-tiny-service-prod.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SharePhoto-eureka/docker/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/SharePhoto-eureka/docker/docker-compose.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SharePhoto-eureka/docker/share-photo-eureka-1.0.0-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SharePhoto-eureka/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/SharePhoto-eureka/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SharePhoto-zipkin/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/SharePhoto-zipkin/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/SharePhoto-dependencies/target/" />
     <ignored path="$PROJECT_DIR$/SharePhoto-redis/target/" />
@@ -72,8 +67,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/SharePhoto-confiuration/share-photo-redis-prod.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="271">
-              <caret line="30" column="4" selection-start-line="30" selection-start-column="4" selection-end-line="30" selection-end-column="4" />
+            <state relative-caret-position="252">
+              <caret line="30" selection-start-line="30" selection-end-line="30" />
             </state>
           </provider>
         </entry>
@@ -447,7 +442,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1559712223825" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1559712524850" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/SharePhoto-tiny-service/pom.xml" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -603,7 +598,7 @@
       <workItem from="1559621052204" duration="10939000" />
       <workItem from="1559635310088" duration="5838000" />
       <workItem from="1559654573962" duration="704000" />
-      <workItem from="1559706869930" duration="5312000" />
+      <workItem from="1559706869930" duration="5554000" />
     </task>
     <servers />
   </component>
@@ -640,13 +635,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="81170000" />
+    <option name="totallyTimeSpent" value="81412000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28181818" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.28181818" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -1108,8 +1103,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/SharePhoto-confiuration/share-photo-redis-prod.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="271">
-          <caret line="30" column="4" selection-start-line="30" selection-start-column="4" selection-end-line="30" selection-end-column="4" />
+        <state relative-caret-position="252">
+          <caret line="30" selection-start-line="30" selection-end-line="30" />
         </state>
       </provider>
     </entry>
