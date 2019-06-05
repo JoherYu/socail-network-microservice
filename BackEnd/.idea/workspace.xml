@@ -7,6 +7,8 @@
       <change beforePath="$PROJECT_DIR$/SharePhoto-confiuration/share-photo-tiny-service-prod.yml" beforeDir="false" afterPath="$PROJECT_DIR$/SharePhoto-confiuration/share-photo-tiny-service-prod.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SharePhoto-redis/src/main/resources/bootstrap-prod.yml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/SharePhoto-redis/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/SharePhoto-redis/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SharePhoto-redis/target/classes/bootstrap-prod.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SharePhoto-redis/target/classes/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/SharePhoto-redis/target/classes/bootstrap.yml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/SharePhoto-dependencies/target/" />
     <ignored path="$PROJECT_DIR$/SharePhoto-redis/target/" />
@@ -32,10 +34,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/SharePhoto-confiuration/share-photo-tiny-service-prod.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="532">
+            <state relative-caret-position="347">
               <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
             </state>
           </provider>
@@ -59,7 +61,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/SharePhoto-redis/src/main/resources/bootstrap.yml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="114">
@@ -80,7 +82,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/SharePhoto-confiuration/share-photo-redis-prod.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="532">
+            <state relative-caret-position="361">
               <caret line="28" column="27" selection-start-line="28" selection-start-column="27" selection-end-line="28" selection-end-column="27" />
             </state>
           </provider>
@@ -230,7 +232,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-202" />
     <option name="y" value="113" />
     <option name="width" value="1346" />
@@ -452,7 +454,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1559716634017" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1559717796329" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/SharePhoto-tiny-service/pom.xml" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -608,7 +610,7 @@
       <workItem from="1559621052204" duration="10939000" />
       <workItem from="1559635310088" duration="5838000" />
       <workItem from="1559654573962" duration="704000" />
-      <workItem from="1559706869930" duration="9319000" />
+      <workItem from="1559706869930" duration="9921000" />
     </task>
     <servers />
   </component>
@@ -645,7 +647,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="85177000" />
+    <option name="totallyTimeSpent" value="85779000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
@@ -1084,13 +1086,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SharePhoto-tiny-service/src/main/resources/bootstrap.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="36" selection-start-line="4" selection-start-column="36" selection-end-line="4" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/SharePhoto-redis/src/main/resources/bootstrap-prod.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -1098,24 +1093,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SharePhoto-redis/src/main/resources/bootstrap.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="19" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/SharePhoto-confiuration/share-photo-redis-prod.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="532">
+        <state relative-caret-position="361">
           <caret line="28" column="27" selection-start-line="28" selection-start-column="27" selection-end-line="28" selection-end-column="27" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/SharePhoto-confiuration/share-photo-tiny-service-prod.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="532">
+        <state relative-caret-position="347">
           <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SharePhoto-tiny-service/src/main/resources/bootstrap.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="36" selection-start-line="4" selection-start-column="36" selection-end-line="4" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SharePhoto-redis/src/main/resources/bootstrap.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="19" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
         </state>
       </provider>
     </entry>
