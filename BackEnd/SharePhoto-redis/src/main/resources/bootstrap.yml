@@ -4,4 +4,4 @@ spring:
       uri: http://39.106.36.194:7040
       name: share-photo-redis
       label: master
-      profile: prod
+      profile: dev
