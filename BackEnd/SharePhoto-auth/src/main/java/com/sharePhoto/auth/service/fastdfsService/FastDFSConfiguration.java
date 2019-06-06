@@ -1,4 +1,4 @@
-package com.sharePhoto.dataFaker.services.fastdfsService;
+package com.sharePhoto.auth.service.fastdfsService;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

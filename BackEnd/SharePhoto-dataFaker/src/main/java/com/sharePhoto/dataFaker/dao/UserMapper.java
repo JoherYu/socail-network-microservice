@@ -1,7 +1,10 @@
 package com.sharePhoto.dataFaker.dao;
 
 import com.sharePhoto.common.service.entity.User;
+import com.sharePhoto.dataFaker.ES.type.UserES;
 import org.apache.ibatis.annotations.Param;
+
+import java.util.List;
 
 public interface UserMapper {
 
@@ -16,4 +19,7 @@ public interface UserMapper {
 
     // 更新头像缩略图
     Integer updateCropAvatar(@Param("id") Integer id, @Param("avatarS") String avatarS, @Param("avatarM") String avatarM, @Param("avatarL") String avatarL);
+
+    // 查询ES document
+    List<UserES> selectUserDocument();
 }

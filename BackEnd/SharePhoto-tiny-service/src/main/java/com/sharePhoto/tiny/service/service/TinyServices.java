@@ -1,5 +1,7 @@
 package com.sharePhoto.tiny.service.service;
 
+import com.rabbitmq.client.Channel;
+
 import java.util.Map;
 
 /**
@@ -9,5 +11,7 @@ import java.util.Map;
 public interface TinyServices {
 
     Map<String, String> getCSRFToken();
+
+    void sendEmail(org.springframework.amqp.core.Message mailMessage,  Channel channel) throws Exception;
 
 }

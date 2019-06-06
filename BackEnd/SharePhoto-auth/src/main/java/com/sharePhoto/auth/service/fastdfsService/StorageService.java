@@ -1,4 +1,4 @@
-package com.sharePhoto.dataFaker.services.fastdfsService;
+package com.sharePhoto.auth.service.fastdfsService;
 
 /**
  * 文件存储服务接口

@@ -19,5 +19,25 @@
     <insert id="insertFake" parameterType="com.sharePhoto.common.service.entity.Photo">
         insert into photo (filename, filename_s, filename_m, author_id, description)
         values (#{filename,jdbcType=VARCHAR}, #{filenameS,jdbcType=VARCHAR}, #{filenameM,jdbcType=VARCHAR}, #{authorId,jdbcType=INTEGER}, #{description,jdbcType=VARCHAR} )
-      </insert>
+     </insert>
+
+    <resultMap id="selectPhotoCardMap" type="com.sharePhoto.dataFaker.ES.type.PhotoES">
+        <id column="id" property="id"/>
+        <result column="filename_s" property="filenameS"/>
+        <association property="collectorCount" select="com.sharePhoto.dataFaker.dao.PhotoMapper.selectCollectorCount" column="id"
+                     javaType="integer"/>
+        <association property="commentCount" select="com.sharePhoto.dataFaker.dao.PhotoMapper.selectCommentCount" column="id"
+                     javaType="integer"/>
+    </resultMap>
+    <select id="selectPhotoDocument" resultMap="selectPhotoCardMap" parameterType="java.lang.String">
+    select id, filename_s, description from photo
+    </select>
+    <!-- 获取图片的收藏者数 -->
+    <select id="selectCollectorCount" resultType="java.lang.Integer" parameterType="java.lang.Integer">
+    select count(*) from collect where collected_id = #{photoId,jdbcType=INTEGER}
+    </select>
+    <!-- 获取图片的评论数 -->
+    <select id="selectCommentCount" resultType="java.lang.Integer" parameterType="java.lang.Integer">
+    select count(*) from comment where photo_id = #{photoId,jdbcType=INTEGER}
+    </select>
 </mapper>

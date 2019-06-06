@@ -1,4 +1,4 @@
-package com.sharePhoto.sso.config;
+package com.sharePhoto.auth.configuration.data;
 
 import com.sharePhoto.common.service.ReadWriteSplittingService.DBContextHolder;
 import org.aspectj.lang.annotation.Aspect;
@@ -15,12 +15,12 @@ import org.springframework.stereotype.Component;
 @Component
 public class DataSourceAop {
 
-    @Pointcut("execution(* com.sharePhoto.sso.dao..*.select*(..))")
+    @Pointcut("execution(* com.sharePhoto.auth.dao..*.select*(..))")
     public void readPointcut() {
 
     }
 
-    @Pointcut("execution(* com.sharePhoto.sso.dao..*.insert*(..)) || execution(* com.sharePhoto.sso.dao..*.update*(..)) || execution(* com.sharePhoto.sso.dao..*.delete*(..))")
+    @Pointcut("execution(* com.sharePhoto.auth.dao..*.insert*(..)) || execution(* com.sharePhoto.auth.dao..*.update*(..)) || execution(* com.sharePhoto.auth.dao..*.delete*(..))")
     public void writePointcut() {
 
     }

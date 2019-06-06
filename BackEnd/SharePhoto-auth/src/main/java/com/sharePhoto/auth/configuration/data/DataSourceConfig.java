@@ -1,4 +1,4 @@
-package com.sharePhoto.sso.config;
+package com.sharePhoto.auth.configuration.data;
 
 import com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceBuilder;
 import com.sharePhoto.common.service.ReadWriteSplittingService.DBTypeEnum;

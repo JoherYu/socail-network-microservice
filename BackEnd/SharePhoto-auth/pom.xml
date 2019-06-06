@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <parent>
+        <groupId>com.sharePhoto</groupId>
+        <artifactId>share-photo-dependencies</artifactId>
+        <version>1.0.0-SNAPSHOT</version>
+        <relativePath>../SharePhoto-dependencies/pom.xml</relativePath>
+    </parent>
+
+    <artifactId>share-photo-auth</artifactId>
+    <packaging>jar</packaging>
+
+    <name>share-photo-auth</name>
+    <url>http://www.sharePhoto.com</url>
+    <inceptionYear>2019-Now</inceptionYear>
+
+    <dependencies>
+        <dependency>
+            <groupId>com.sharePhoto</groupId>
+            <artifactId>share-photo-common</artifactId>
+            <version>${project.parent.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.sharePhoto</groupId>
+            <artifactId>share-photo-common-service</artifactId>
+            <version>${project.parent.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-amqp</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>io.jsonwebtoken</groupId>
+            <artifactId>jjwt</artifactId>
+            <version>0.9.0</version>
+        </dependency>
+        <!-- FastDFS Begin -->
+        <dependency>
+            <groupId>org.csource</groupId>
+            <artifactId>fastdfs-client-java</artifactId>
+            <version>1.27-SNAPSHOT</version>
+        </dependency>
+        <!-- FastDFS End -->
+    </dependencies>
+
+    <repositories>
+        <repository>
+            <id>github-maven-snapshot-repository</id>
+            <name>github-maven-snapshot-repository</name>
+            <url>https://raw.github.com/JoherYu/maven-private/snapshot/</url>
+        </repository>
+        <repository>
+            <id>github-maven-release-repository</id>
+            <name>github-maven-release-repository</name>
+            <url>https://raw.github.com/JoherYu/maven-private/release/</url>
+        </repository>
+    </repositories>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+                <configuration>
+                    <mainClass>com.sharePhoto.auth.AuthApplication</mainClass>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+</project>

@@ -3,6 +3,12 @@ package com.sharePhoto.dataFaker.services.generateData;
 import com.github.javafaker.Faker;
 import com.sharePhoto.common.service.entity.Photo;
 import com.sharePhoto.common.service.entity.User;
+import com.sharePhoto.dataFaker.ES.repository.PhotoRepository;
+import com.sharePhoto.dataFaker.ES.repository.TagRepository;
+import com.sharePhoto.dataFaker.ES.repository.UserRepository;
+import com.sharePhoto.dataFaker.ES.type.PhotoES;
+import com.sharePhoto.dataFaker.ES.type.TagES;
+import com.sharePhoto.dataFaker.ES.type.UserES;
 import com.sharePhoto.dataFaker.dao.*;
 import com.sharePhoto.dataFaker.entity.Comment;
 import com.sharePhoto.dataFaker.entity.Tagging;
@@ -54,6 +60,15 @@ public class GenerateFakeDataImpl implements GenerateFakeData, Serializable {
 
     @Resource
     GenerateAvatar generateAvatar;
+
+    @Resource
+    PhotoRepository photoRepository;
+
+    @Resource
+    TagRepository tagRepository;
+
+    @Resource
+    UserRepository userRepository;
 
     @Override
     @Transactional
@@ -183,7 +198,22 @@ public class GenerateFakeDataImpl implements GenerateFakeData, Serializable {
                 message.add((i + 1) + "号评论生成失败");
             }
         }
+
+        try {
+            List<PhotoES>  photoDocuments = photoMapper.selectPhotoDocument();
+            List<TagES> tagDocuments = tagMapper.selectTagDocument();
+            List<UserES> usersDocuments = userMapper.selectUserDocument();
+            photoRepository.saveAll(photoDocuments);
+            tagRepository.saveAll(tagDocuments);
+            userRepository.saveAll(usersDocuments);
+        } catch (Exception e) {
+            e.printStackTrace();
+            message.add("ES导入失败");
+        }
+
         return message;
+
+
     }
 
 

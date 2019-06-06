@@ -38,6 +38,9 @@
     <select id="selectUserIdByUsername" resultType="java.lang.Integer" parameterType="java.lang.String">
     select id from user where username = #{username,jdbcType=VARCHAR}
     </select>
+    <select id="selectUserDocument" resultType="com.sharePhoto.dataFaker.ES.type.UserES">
+      select id, username, avatar_m, name from user
+    </select>
     <!--  剪裁头像  -->
     <update id="updateCropAvatar">
         update user set avatar_s = #{avatarS}, avatar_m = #{avatarM}, avatar_l = #{avatarL} where id = #{id}

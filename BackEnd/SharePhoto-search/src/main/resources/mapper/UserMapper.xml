@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.sharePhoto.search.dao.UserMapper">
+    <resultMap id="BaseResultMap" type="com.sharePhoto.common.service.entity.User">
+        <id column="id" jdbcType="INTEGER" property="id"/>
+        <result column="email" jdbcType="VARCHAR" property="email"/>
+        <result column="username" jdbcType="VARCHAR" property="username"/>
+        <result column="password_hash" jdbcType="VARCHAR" property="passwordHash"/>
+        <result column="name" jdbcType="VARCHAR" property="name"/>
+        <result column="website" jdbcType="VARCHAR" property="website"/>
+        <result column="bio" jdbcType="VARCHAR" property="bio"/>
+        <result column="location" jdbcType="VARCHAR" property="location"/>
+        <result column="member_since" jdbcType="TIMESTAMP" property="memberSince"/>
+        <result column="avatar_s" jdbcType="VARCHAR" property="avatarS"/>
+        <result column="avatar_m" jdbcType="VARCHAR" property="avatarM"/>
+        <result column="avatar_l" jdbcType="VARCHAR" property="avatarL"/>
+        <result column="avatar_raw" jdbcType="VARCHAR" property="avatarRaw"/>
+        <result column="confirmed" jdbcType="TINYINT" property="confirmed"/>
+        <result column="locked" jdbcType="TINYINT" property="locked"/>
+        <result column="active" jdbcType="TINYINT" property="active"/>
+        <result column="public_collections" jdbcType="TINYINT" property="publicCollections"/>
+        <result column="receive_comment_notification" jdbcType="TINYINT" property="receiveCommentNotification"/>
+        <result column="receive_follow_notification" jdbcType="TINYINT" property="receiveFollowNotification"/>
+        <result column="receive_collect_notification" jdbcType="TINYINT" property="receiveCollectNotification"/>
+        <result column="role_id" jdbcType="TINYINT" property="roleId"/>
+    </resultMap>
+    <sql id="Base_Column_List">
+    id, email, username, password_hash, name, website, bio, location, member_since, avatar_s, 
+    avatar_m, avatar_l, avatar_raw, confirmed, locked, active, public_collections, receive_comment_notification, 
+    receive_follow_notification, receive_collect_notification, role_id
+    </sql>
+    <!-- 当前用户是否关注此用户 -->
+    <select id="selectUserIsFollowBy" resultType="boolean">
+    select count(*) from follow where followed_id = #{id,jdbcType=INTEGER} and follower_id = #{currentUserId,jdbcType=INTEGER}
+    </select>
+    <!-- 当前用户是否被此用户关注 -->
+    <select id="selectUserIsFollowing" resultType="boolean">
+    select count(*) from follow where followed_id = #{currentUserId,jdbcType=INTEGER} and follower_id = #{id,jdbcType=INTEGER}
+    </select>
+</mapper>

@@ -1,4 +1,4 @@
-package com.sharePhoto.sso.config;
+package com.sharePhoto.auth.configuration.data;
 
 import org.apache.ibatis.session.SqlSessionFactory;
 import org.mybatis.spring.SqlSessionFactoryBean;

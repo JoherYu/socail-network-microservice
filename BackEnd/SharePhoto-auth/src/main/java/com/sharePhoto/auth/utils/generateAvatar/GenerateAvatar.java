@@ -1,4 +1,4 @@
-package com.sharePhoto.auth.service.generateAvatar;
+package com.sharePhoto.auth.utils.generateAvatar;
 
 import com.google.common.base.Charsets;
 import com.google.common.hash.Hasher;

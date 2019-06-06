@@ -12,4 +12,7 @@
         insert into tag (id, name)
         values (#{id}, #{name})
     </insert>
+    <select id="selectTagDocument" resultType="com.sharePhoto.dataFaker.ES.type.TagES">
+        select id, name from tag
+    </select>
 </mapper>
