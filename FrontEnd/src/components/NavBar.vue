@@ -87,7 +87,6 @@
                 type: res.type
                 })
               if(res.type == "success"){
-              this.$store.commit('StoreToken', res.csrfToken)
               sessionStorage.clear()
               localStorage.clear()
               this.$store.commit('Reset')
