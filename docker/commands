@@ -1,0 +1,58 @@
+curl -fsSL get.docker.com -o get-docker.sh
+sudo sh get-docker.sh --mirror Aliyun
+
+vim /etc/docker/daemon.json
+{
+  "registry-mirrors": [
+    "https://registry.docker-cn.com"
+  ]
+}
+
+sudo systemctl daemon-reload
+sudo systemctl restart docker
+
+sudo curl -L https://github.com/docker/compose/releases/download/1.17.1/docker-compose-`uname -s`-`uname -m` > /usr/local/bin/docker-compose
+sudo chmod +x /usr/local/bin/docker-compose
+
+tar -xzvf jdk-8u211-linux-x64.tar.gz
+mv jdk1.8.0_211 /usr/local/java/
+
+vim /etc/environment
+export JAVA_HOME=/usr/local/java/jdk1.8.0_211
+export JRE_HOME=/usr/local/java/jdk1.8.0_211/jre
+export CLASSPATH=$CLASSPATH:$JAVA_HOME/lib:$JAVA_HOME/jre/lib
+
+vim /etc/profile
+export JAVA_HOME=/usr/local/java/jdk1.8.0_211
+export JRE_HOME=/usr/local/java/jdk1.8.0_211/jre
+export CLASSPATH=$CLASSPATH:$JAVA_HOME/lib:$JAVA_HOME/jre/lib
+export PATH=$JAVA_HOME/bin:$JAVA_HOME/jre/bin:$PATH:$HOME/bin
+if [ -d /etc/profile.d ]; then
+  for i in /etc/profile.d/*.sh; do
+    if [ -r $i ]; then
+      . $i
+    fi
+  done
+  unset i
+fi
+
+source /etc/profile
+
+chmod +x entrypoint.sh
+
+create user joher;
+GRANT REPLICATION SLAVE,FILE ON *.* TO 'joher'@'%' IDENTIFIED BY '123456';
+FLUSH PRIVILEGES;
+show MASTER status;
+
+change master to master_host='39.106.36.194',master_port=3306,master_user='joher',master_password='123456',master_log_file='replicas-mysql-bin.000003',master_log_pos=787;
+start slave;
+show slave status;
+
+
+vi /etc/sysctl.conf
+vm.max_map_count=262144
+sysctl -p
+
+sync
+echo 1 > /proc/sys/vm/drop_caches

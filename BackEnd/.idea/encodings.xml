@@ -1,17 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding" native2AsciiForPropertiesFiles="true" defaultCharsetForPropertiesFiles="UTF-8" addBOMForNewFiles="with NO BOM">
-    <file url="file://$PROJECT_DIR$/SharePhoto-admin" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/SharePhoto-auth" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/SharePhoto-common" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SharePhoto-common-interceptor" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/SharePhoto-common-service" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/SharePhoto-dataFaker" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SharePhoto-config" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/SharePhoto-dependencies" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/SharePhoto-redis" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/SharePhoto-search" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/SharePhoto-sso" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/SharePhoto-tiny-service" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/SharePhoto-zuul" charset="UTF-8" />
     <file url="PROJECT" charset="UTF-8" />
   </component>
 </project>

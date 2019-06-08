@@ -37,4 +37,7 @@
     <select id="selectUserIsFollowing" resultType="boolean">
     select count(*) from follow where followed_id = #{currentUserId,jdbcType=INTEGER} and follower_id = #{id,jdbcType=INTEGER}
     </select>
+    <select id="selectUserDocument" resultType="com.sharePhoto.search.ES.type.UserES">
+        select id, username, avatar_m, name from user where id = #{id}
+    </select>
 </mapper>

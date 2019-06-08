@@ -11,4 +11,7 @@ public interface AuthService {
 
     // 添加新用户
     Map<String, String> addUser(Map<String, Object> authData, HttpServletRequest request) throws Exception;
+
+    // 邮箱确认
+    String confirm(String token, HttpServletRequest request) throws Exception;
 }

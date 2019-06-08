@@ -1,8 +1,9 @@
-package com.sharePhoto.common.interceptor.interceptor;
+package com.sharePhoto.auth.configuration.interceptor;
 
 import com.alibaba.fastjson.JSONObject;
+import com.sharePhoto.auth.consumer.RedisServer;
 import com.sharePhoto.common.CookieUtils;
-import com.sharePhoto.common.interceptor.redis.RedisServer;
+import org.springframework.stereotype.Component;
 import org.springframework.web.servlet.HandlerInterceptor;
 
 import javax.annotation.Resource;
@@ -14,7 +15,7 @@ import java.io.PrintWriter;
  * @author Joher
  * @data 2019/6/7
  **/
-
+@Component
 public class LoginInterceptor implements HandlerInterceptor {
 
     @Resource

@@ -1,162 +1,182 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ca4df540-2e1a-4d31-846b-e360900efc3c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_carrotsearch_hppc_0_7_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_dataformat_jackson_dataformat_cbor_2_9_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_dataformat_jackson_dataformat_smile_2_9_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_dataformat_jackson_dataformat_yaml_2_9_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_spullara_mustache_java_compiler_0_9_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_jayway_jsonpath_json_path_2_4_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_tdunning_t_digest_3_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_vaadin_external_google_android_json_0_0_20131108_vaadin1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_vividsolutions_jts_1_13.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_3_10_6_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_7_11.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_accessors_smart_1_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_json_smart_2_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_sf_jopt_simple_jopt_simple_5_0_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpasyncclient_4_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_nio_4_4_9.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_lucene_lucene_analyzers_common_6_6_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_lucene_lucene_backward_codecs_6_6_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_lucene_lucene_core_6_6_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_lucene_lucene_grouping_6_6_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_lucene_lucene_highlighter_6_6_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_lucene_lucene_join_6_6_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_lucene_lucene_memory_6_6_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_lucene_lucene_misc_6_6_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_lucene_lucene_queries_6_6_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_lucene_lucene_queryparser_6_6_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_lucene_lucene_sandbox_6_6_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_lucene_lucene_spatial3d_6_6_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_lucene_lucene_spatial_6_6_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_lucene_lucene_spatial_extras_6_6_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_lucene_lucene_suggest_6_6_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_assertj_assertj_core_3_9_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_elasticsearch_client_elasticsearch_rest_client_5_6_9.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_elasticsearch_client_transport_5_6_9.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_elasticsearch_elasticsearch_5_6_9.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_elasticsearch_jna_4_4_0_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_elasticsearch_plugin_lang_mustache_client_5_6_9.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_elasticsearch_plugin_parent_join_client_5_6_9.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_elasticsearch_plugin_percolator_client_5_6_9.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_elasticsearch_plugin_reindex_client_5_6_9.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_elasticsearch_plugin_transport_netty3_client_5_6_9.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_elasticsearch_plugin_transport_netty4_client_5_6_9.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_elasticsearch_securesm_1_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_library_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_locationtech_spatial4j_spatial4j_0_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_core_2_15_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_objenesis_objenesis_2_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_skyscreamer_jsonassert_1_5_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_data_elasticsearch_2_0_2_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_0_2_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_2_0_2_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_2_0_2_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_elasticsearch_3_0_7_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_5_0_6_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_xmlunit_xmlunit_core_2_5_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SharePhoto-dataFaker/src/main/java/com/sharePhoto/dataFaker/ES/repository/PhotoRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SharePhoto-dataFaker/src/main/java/com/sharePhoto/dataFaker/ES/repository/TagRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SharePhoto-dataFaker/src/main/java/com/sharePhoto/dataFaker/ES/repository/UserRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SharePhoto-dataFaker/src/main/java/com/sharePhoto/dataFaker/ES/type/PhotoES.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SharePhoto-dataFaker/src/main/java/com/sharePhoto/dataFaker/ES/type/TagES.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SharePhoto-dataFaker/src/main/java/com/sharePhoto/dataFaker/ES/type/UserES.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SharePhoto-dataFaker/src/test/java/ESIndexTypesGeneratorTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SharePhoto-search/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SharePhoto-search/share-photo-search.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SharePhoto-search/src/main/java/com/sharePhoto/search/ES/repository/PhotoRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SharePhoto-search/src/main/java/com/sharePhoto/search/ES/repository/TagRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SharePhoto-search/src/main/java/com/sharePhoto/search/ES/repository/UserRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SharePhoto-search/src/main/java/com/sharePhoto/search/ES/type/PhotoES.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SharePhoto-search/src/main/java/com/sharePhoto/search/ES/type/TagES.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SharePhoto-search/src/main/java/com/sharePhoto/search/ES/type/UserES.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SharePhoto-search/src/main/java/com/sharePhoto/search/config/DataSourceAop.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SharePhoto-search/src/main/java/com/sharePhoto/search/config/DataSourceConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SharePhoto-search/src/main/java/com/sharePhoto/search/config/MyBatisConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SharePhoto-search/src/main/java/com/sharePhoto/search/consumer/RedisHystrix.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SharePhoto-search/src/main/java/com/sharePhoto/search/consumer/RedisServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SharePhoto-search/src/main/java/com/sharePhoto/search/controller/searchController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SharePhoto-search/src/main/java/com/sharePhoto/search/dao/UserMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SharePhoto-search/src/main/java/com/sharePhoto/search/searchApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SharePhoto-search/src/main/java/com/sharePhoto/search/service/searchServices.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SharePhoto-search/src/main/java/com/sharePhoto/search/service/searchServicesImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SharePhoto-search/src/main/resources/bootstrap.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SharePhoto-search/src/main/resources/mapper/UserMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SharePhoto-tiny-service/src/main/java/com/sharePhoto/tiny/service/utils/JsonSerilizable.java" afterDir="false" />
+    <list default="true" id="b0f5c323-ef91-423e-85e5-7a7d7b8f6d15" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/SharePhoto-confiuration/share-photo-auth-prod.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SharePhoto-confiuration/share-photo-search-prod.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_afterburner_2_9_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_javafaker_javafaker_0_16.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_mifmif_generex_1_0_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_jayway_jsonpath_json_path_2_4_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_hystrix_hystrix_javanica_1_5_12.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_hystrix_hystrix_metrics_event_stream_1_5_12.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_hystrix_hystrix_serialization_1_5_12.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_zuul_zuul_core_1_3_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_mail_javax_mail_1_6_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_vaadin_external_google_android_json_0_0_20131108_vaadin1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__de_codecentric_spring_boot_admin_server_2_0_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__de_codecentric_spring_boot_admin_server_cloud_2_0_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__de_codecentric_spring_boot_admin_server_ui_2_0_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__de_codecentric_spring_boot_admin_starter_server_2_0_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__dk_brics_automaton_automaton_1_11_8.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_codec_socks_4_1_24_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_handler_proxy_4_1_24_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_transport_native_epoll_linux_x86_64_4_1_24_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_projectreactor_addons_reactor_extra_3_1_6_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_projectreactor_ipc_reactor_netty_0_7_7_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_reactivex_rxjava_reactive_streams_1_2_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_activation_activation_1_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_7_11.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_accessors_smart_1_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_json_smart_2_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_assertj_assertj_core_3_9_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_library_1_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_core_2_15_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_objenesis_objenesis_2_6.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_5_0_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_skyscreamer_jsonassert_1_5_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_mail_2_0_2_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_reactor_netty_2_0_2_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_0_2_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_webflux_2_0_2_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_2_0_2_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_2_0_2_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_zuul_2_0_0_RC1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_hystrix_2_0_0_RC1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_zuul_2_0_0_RC1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_5_0_6_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webflux_5_0_6_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_synchronoss_cloud_nio_multipart_parser_1_1_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_synchronoss_cloud_nio_stream_storage_1_1_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_xmlunit_xmlunit_core_2_5_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_android_1_20.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SharePhoto-admin/target/classes/com/sharePhoto/admin/AdminApplication.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/SharePhoto-auth/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/SharePhoto-auth/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SharePhoto-auth/share-photo-auth.iml" beforeDir="false" afterPath="$PROJECT_DIR$/SharePhoto-auth/share-photo-auth.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SharePhoto-auth/src/main/java/com/sharePhoto/auth/AuthApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/SharePhoto-auth/src/main/java/com/sharePhoto/auth/AuthApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SharePhoto-auth/src/main/java/com/sharePhoto/auth/configuration/RabbitMQConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/SharePhoto-auth/src/main/java/com/sharePhoto/auth/configuration/RabbitMQConfiguration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SharePhoto-auth/src/main/java/com/sharePhoto/auth/configuration/data/DataSourceAop.java" beforeDir="false" afterPath="$PROJECT_DIR$/SharePhoto-auth/src/main/java/com/sharePhoto/auth/configuration/data/DataSourceAop.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SharePhoto-auth/src/main/java/com/sharePhoto/auth/configuration/data/DataSourceConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/SharePhoto-auth/src/main/java/com/sharePhoto/auth/configuration/data/DataSourceConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SharePhoto-auth/src/main/java/com/sharePhoto/auth/configuration/data/MyBatisConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/SharePhoto-auth/src/main/java/com/sharePhoto/auth/configuration/data/MyBatisConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SharePhoto-auth/src/main/java/com/sharePhoto/auth/configuration/interceptor/InterceptorConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/SharePhoto-auth/src/main/java/com/sharePhoto/auth/configuration/interceptor/InterceptorConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SharePhoto-auth/src/main/java/com/sharePhoto/auth/configuration/interceptor/LoginInterceptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/SharePhoto-auth/src/main/java/com/sharePhoto/auth/configuration/interceptor/LoginInterceptor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SharePhoto-auth/src/main/java/com/sharePhoto/auth/consumer/RedisServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/SharePhoto-auth/src/main/java/com/sharePhoto/auth/consumer/RedisServer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SharePhoto-auth/src/main/java/com/sharePhoto/auth/controller/AuthController.java" beforeDir="false" afterPath="$PROJECT_DIR$/SharePhoto-auth/src/main/java/com/sharePhoto/auth/controller/AuthController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SharePhoto-auth/src/main/java/com/sharePhoto/auth/dao/UserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/SharePhoto-auth/src/main/java/com/sharePhoto/auth/dao/UserMapper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SharePhoto-auth/src/main/java/com/sharePhoto/auth/service/AuthService.java" beforeDir="false" afterPath="$PROJECT_DIR$/SharePhoto-auth/src/main/java/com/sharePhoto/auth/service/AuthService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SharePhoto-auth/src/main/java/com/sharePhoto/auth/service/AuthServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/SharePhoto-auth/src/main/java/com/sharePhoto/auth/service/AuthServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SharePhoto-auth/src/main/java/com/sharePhoto/auth/service/fastdfsService/FastDFSConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/SharePhoto-auth/src/main/java/com/sharePhoto/auth/service/fastdfsService/FastDFSConfiguration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SharePhoto-auth/src/main/java/com/sharePhoto/auth/service/fastdfsService/FastDFSStorageService.java" beforeDir="false" afterPath="$PROJECT_DIR$/SharePhoto-auth/src/main/java/com/sharePhoto/auth/service/fastdfsService/FastDFSStorageService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SharePhoto-auth/src/main/java/com/sharePhoto/auth/service/fastdfsService/StorageFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/SharePhoto-auth/src/main/java/com/sharePhoto/auth/service/fastdfsService/StorageFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SharePhoto-auth/src/main/java/com/sharePhoto/auth/service/fastdfsService/StorageService.java" beforeDir="false" afterPath="$PROJECT_DIR$/SharePhoto-auth/src/main/java/com/sharePhoto/auth/service/fastdfsService/StorageService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SharePhoto-auth/src/main/java/com/sharePhoto/auth/utils/JWTToken.java" beforeDir="false" afterPath="$PROJECT_DIR$/SharePhoto-auth/src/main/java/com/sharePhoto/auth/utils/JWTToken.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SharePhoto-auth/src/main/java/com/sharePhoto/auth/utils/generateAvatar/DefaultGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/SharePhoto-auth/src/main/java/com/sharePhoto/auth/utils/generateAvatar/DefaultGenerator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SharePhoto-auth/src/main/java/com/sharePhoto/auth/utils/generateAvatar/GenerateAvatar.java" beforeDir="false" afterPath="$PROJECT_DIR$/SharePhoto-auth/src/main/java/com/sharePhoto/auth/utils/generateAvatar/GenerateAvatar.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SharePhoto-auth/src/main/java/com/sharePhoto/auth/utils/generateAvatar/IBaseGenartor.java" beforeDir="false" afterPath="$PROJECT_DIR$/SharePhoto-auth/src/main/java/com/sharePhoto/auth/utils/generateAvatar/IBaseGenartor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SharePhoto-auth/src/main/java/com/sharePhoto/auth/utils/generateAvatar/Identicon.java" beforeDir="false" afterPath="$PROJECT_DIR$/SharePhoto-auth/src/main/java/com/sharePhoto/auth/utils/generateAvatar/Identicon.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SharePhoto-auth/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/SharePhoto-auth/src/main/resources/bootstrap.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SharePhoto-auth/src/main/resources/mapper/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/SharePhoto-auth/src/main/resources/mapper/UserMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SharePhoto-dataFaker/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/SharePhoto-dataFaker/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SharePhoto-dataFaker/share-photo-dataFaker.iml" beforeDir="false" afterPath="$PROJECT_DIR$/SharePhoto-dataFaker/share-photo-dataFaker.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SharePhoto-dataFaker/src/main/java/com/sharePhoto/dataFaker/dao/PhotoMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/SharePhoto-dataFaker/src/main/java/com/sharePhoto/dataFaker/dao/PhotoMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SharePhoto-dataFaker/src/main/java/com/sharePhoto/dataFaker/dao/TagMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/SharePhoto-dataFaker/src/main/java/com/sharePhoto/dataFaker/dao/TagMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SharePhoto-dataFaker/src/main/java/com/sharePhoto/dataFaker/dao/UserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/SharePhoto-dataFaker/src/main/java/com/sharePhoto/dataFaker/dao/UserMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SharePhoto-dataFaker/src/main/java/com/sharePhoto/dataFaker/services/generateData/GenerateFakeDataImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/SharePhoto-dataFaker/src/main/java/com/sharePhoto/dataFaker/services/generateData/GenerateFakeDataImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SharePhoto-auth/src/main/resources/templates/auth.html" beforeDir="false" afterPath="$PROJECT_DIR$/SharePhoto-auth/src/main/resources/templates/auth.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SharePhoto-auth/target/classes/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/SharePhoto-auth/target/classes/bootstrap.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SharePhoto-auth/target/classes/com/sharePhoto/auth/AuthApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/SharePhoto-auth/target/classes/com/sharePhoto/auth/AuthApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SharePhoto-auth/target/classes/com/sharePhoto/auth/configuration/RabbitMQConfiguration.class" beforeDir="false" afterPath="$PROJECT_DIR$/SharePhoto-auth/target/classes/com/sharePhoto/auth/configuration/RabbitMQConfiguration.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SharePhoto-auth/target/classes/com/sharePhoto/auth/controller/AuthController.class" beforeDir="false" afterPath="$PROJECT_DIR$/SharePhoto-auth/target/classes/com/sharePhoto/auth/controller/AuthController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SharePhoto-auth/target/classes/com/sharePhoto/auth/dao/UserMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/SharePhoto-auth/target/classes/com/sharePhoto/auth/dao/UserMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SharePhoto-auth/target/classes/com/sharePhoto/auth/service/AuthService.class" beforeDir="false" afterPath="$PROJECT_DIR$/SharePhoto-auth/target/classes/com/sharePhoto/auth/service/AuthService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SharePhoto-auth/target/classes/com/sharePhoto/auth/service/AuthServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/SharePhoto-auth/target/classes/com/sharePhoto/auth/service/AuthServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SharePhoto-auth/target/classes/mapper/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/SharePhoto-auth/target/classes/mapper/UserMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SharePhoto-common-interceptor/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SharePhoto-common-interceptor/share-photo-common-interceptor.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SharePhoto-common-interceptor/src/main/java/com/sharePhoto/common/interceptor/InterceptorApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SharePhoto-common-interceptor/src/main/java/com/sharePhoto/common/interceptor/conf/DataSourceAop.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SharePhoto-common-interceptor/src/main/java/com/sharePhoto/common/interceptor/conf/DataSourceConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SharePhoto-common-interceptor/src/main/java/com/sharePhoto/common/interceptor/conf/MyBatisConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SharePhoto-common-interceptor/src/main/java/com/sharePhoto/common/interceptor/interceptor/LoginInterceptor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SharePhoto-common-interceptor/src/main/java/com/sharePhoto/common/interceptor/redis/RedisServer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SharePhoto-common-interceptor/src/main/resources/bootstrap.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SharePhoto-config/share-photo-config.iml" beforeDir="false" afterPath="$PROJECT_DIR$/SharePhoto-config/share-photo-config.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SharePhoto-confiuration/share-photo-sso-prod.yml" beforeDir="false" afterPath="$PROJECT_DIR$/SharePhoto-confiuration/share-photo-sso-prod.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SharePhoto-confiuration/share-photo-zuul-prod.yml" beforeDir="false" afterPath="$PROJECT_DIR$/SharePhoto-confiuration/share-photo-zuul-prod.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SharePhoto-dataFaker/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/SharePhoto-dataFaker/src/main/resources/bootstrap.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SharePhoto-dataFaker/src/main/resources/mapper/PhotoMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/SharePhoto-dataFaker/src/main/resources/mapper/PhotoMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SharePhoto-dataFaker/src/main/resources/mapper/TagMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/SharePhoto-dataFaker/src/main/resources/mapper/TagMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SharePhoto-dataFaker/src/main/resources/mapper/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/SharePhoto-dataFaker/src/main/resources/mapper/UserMapper.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SharePhoto-dataFaker/target/classes/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/SharePhoto-dataFaker/target/classes/bootstrap.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SharePhoto-dataFaker/target/classes/com/sharePhoto/dataFaker/dao/PhotoMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/SharePhoto-dataFaker/target/classes/com/sharePhoto/dataFaker/dao/PhotoMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SharePhoto-dataFaker/target/classes/com/sharePhoto/dataFaker/dao/TagMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/SharePhoto-dataFaker/target/classes/com/sharePhoto/dataFaker/dao/TagMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SharePhoto-dataFaker/target/classes/com/sharePhoto/dataFaker/dao/UserMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/SharePhoto-dataFaker/target/classes/com/sharePhoto/dataFaker/dao/UserMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SharePhoto-dataFaker/target/classes/com/sharePhoto/dataFaker/services/generateData/GenerateFakeDataImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/SharePhoto-dataFaker/target/classes/com/sharePhoto/dataFaker/services/generateData/GenerateFakeDataImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SharePhoto-dataFaker/target/classes/mapper/PhotoMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/SharePhoto-dataFaker/target/classes/mapper/PhotoMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SharePhoto-dataFaker/target/classes/mapper/TagMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/SharePhoto-dataFaker/target/classes/mapper/TagMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SharePhoto-dataFaker/target/classes/mapper/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/SharePhoto-dataFaker/target/classes/mapper/UserMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SharePhoto-sso/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/SharePhoto-sso/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SharePhoto-dataFaker/target/classes/com/sharePhoto/dataFaker/ES/repository/PhotoRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SharePhoto-dataFaker/target/classes/com/sharePhoto/dataFaker/ES/repository/TagRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SharePhoto-dataFaker/target/classes/com/sharePhoto/dataFaker/ES/repository/UserRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SharePhoto-dataFaker/target/classes/com/sharePhoto/dataFaker/ES/type/PhotoES.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SharePhoto-dataFaker/target/classes/com/sharePhoto/dataFaker/ES/type/TagES.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SharePhoto-dataFaker/target/classes/com/sharePhoto/dataFaker/ES/type/UserES.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SharePhoto-dataFaker/target/classes/com/sharePhoto/dataFaker/config/DataSourceAop.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SharePhoto-dataFaker/target/classes/com/sharePhoto/dataFaker/config/DataSourceConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SharePhoto-dataFaker/target/classes/com/sharePhoto/dataFaker/config/MyBatisConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SharePhoto-dataFaker/target/classes/com/sharePhoto/dataFaker/controller/FakingItController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SharePhoto-dataFaker/target/classes/com/sharePhoto/dataFaker/dao/CollectMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SharePhoto-dataFaker/target/classes/com/sharePhoto/dataFaker/dao/CommentMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SharePhoto-dataFaker/target/classes/com/sharePhoto/dataFaker/dao/FollowMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SharePhoto-dataFaker/target/classes/com/sharePhoto/dataFaker/dao/NotificationMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SharePhoto-dataFaker/target/classes/com/sharePhoto/dataFaker/dao/PhotoMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SharePhoto-dataFaker/target/classes/com/sharePhoto/dataFaker/dao/TagMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SharePhoto-dataFaker/target/classes/com/sharePhoto/dataFaker/dao/TaggingMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SharePhoto-dataFaker/target/classes/com/sharePhoto/dataFaker/dao/UserMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SharePhoto-dataFaker/target/classes/com/sharePhoto/dataFaker/dataFakerApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SharePhoto-dataFaker/target/classes/com/sharePhoto/dataFaker/entity/Collect.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SharePhoto-dataFaker/target/classes/com/sharePhoto/dataFaker/entity/CollectKey.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SharePhoto-dataFaker/target/classes/com/sharePhoto/dataFaker/entity/Comment.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SharePhoto-dataFaker/target/classes/com/sharePhoto/dataFaker/entity/Follow.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SharePhoto-dataFaker/target/classes/com/sharePhoto/dataFaker/entity/FollowKey.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SharePhoto-dataFaker/target/classes/com/sharePhoto/dataFaker/entity/Notification.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SharePhoto-dataFaker/target/classes/com/sharePhoto/dataFaker/entity/Tagging.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SharePhoto-dataFaker/target/classes/com/sharePhoto/dataFaker/services/fastdfsService/FastDFSConfiguration.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SharePhoto-dataFaker/target/classes/com/sharePhoto/dataFaker/services/fastdfsService/FastDFSStorageService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SharePhoto-dataFaker/target/classes/com/sharePhoto/dataFaker/services/fastdfsService/StorageFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SharePhoto-dataFaker/target/classes/com/sharePhoto/dataFaker/services/fastdfsService/StorageService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SharePhoto-dataFaker/target/classes/com/sharePhoto/dataFaker/services/generateAvatar/DefaultGenerator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SharePhoto-dataFaker/target/classes/com/sharePhoto/dataFaker/services/generateAvatar/GenerateAvatar$sizes.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SharePhoto-dataFaker/target/classes/com/sharePhoto/dataFaker/services/generateAvatar/GenerateAvatar.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SharePhoto-dataFaker/target/classes/com/sharePhoto/dataFaker/services/generateAvatar/IBaseGenartor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SharePhoto-dataFaker/target/classes/com/sharePhoto/dataFaker/services/generateAvatar/Identicon.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SharePhoto-dataFaker/target/classes/com/sharePhoto/dataFaker/services/generateData/GenerateFakeData.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SharePhoto-dataFaker/target/classes/com/sharePhoto/dataFaker/services/generateData/GenerateFakeDataImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SharePhoto-dataFaker/target/classes/com/sharePhoto/dataFaker/services/generateImage/GenerateImage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SharePhoto-dataFaker/target/test-classes/ESIndexTypesGeneratorTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SharePhoto-search/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/SharePhoto-search/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SharePhoto-search/share-photo-search.iml" beforeDir="false" afterPath="$PROJECT_DIR$/SharePhoto-search/share-photo-search.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SharePhoto-search/src/main/java/com/sharePhoto/search/config/RabbitConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/SharePhoto-search/src/main/java/com/sharePhoto/search/config/RabbitConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SharePhoto-search/src/main/java/com/sharePhoto/search/dao/UserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/SharePhoto-search/src/main/java/com/sharePhoto/search/dao/UserMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SharePhoto-search/src/main/java/com/sharePhoto/search/service/searchServices.java" beforeDir="false" afterPath="$PROJECT_DIR$/SharePhoto-search/src/main/java/com/sharePhoto/search/service/searchServices.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SharePhoto-search/src/main/java/com/sharePhoto/search/service/searchServicesImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/SharePhoto-search/src/main/java/com/sharePhoto/search/service/searchServicesImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SharePhoto-search/src/main/java/com/sharePhoto/search/utils/JsonSerilizable.java" beforeDir="false" afterPath="$PROJECT_DIR$/SharePhoto-search/src/main/java/com/sharePhoto/search/utils/JsonSerilizable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SharePhoto-search/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/SharePhoto-search/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SharePhoto-search/src/main/resources/mapper/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/SharePhoto-search/src/main/resources/mapper/UserMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SharePhoto-search/target/classes/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/SharePhoto-search/target/classes/bootstrap.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SharePhoto-search/target/classes/com/sharePhoto/search/dao/UserMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/SharePhoto-search/target/classes/com/sharePhoto/search/dao/UserMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SharePhoto-search/target/classes/com/sharePhoto/search/service/searchServices.class" beforeDir="false" afterPath="$PROJECT_DIR$/SharePhoto-search/target/classes/com/sharePhoto/search/service/searchServices.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SharePhoto-search/target/classes/com/sharePhoto/search/service/searchServicesImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/SharePhoto-search/target/classes/com/sharePhoto/search/service/searchServicesImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SharePhoto-search/target/classes/mapper/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/SharePhoto-search/target/classes/mapper/UserMapper.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SharePhoto-sso/share-photo-sso.iml" beforeDir="false" afterPath="$PROJECT_DIR$/SharePhoto-sso/share-photo-sso.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SharePhoto-sso/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/SharePhoto-sso/src/main/resources/bootstrap.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SharePhoto-sso/target/classes/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/SharePhoto-sso/target/classes/bootstrap.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SharePhoto-tiny-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/SharePhoto-tiny-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SharePhoto-tiny-service/share-photo-tiny-service.iml" beforeDir="false" afterPath="$PROJECT_DIR$/SharePhoto-tiny-service/share-photo-tiny-service.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SharePhoto-tiny-service/src/main/java/com/sharePhoto/tiny/service/config/RabbitConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/SharePhoto-tiny-service/src/main/java/com/sharePhoto/tiny/service/config/RabbitConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SharePhoto-tiny-service/src/main/java/com/sharePhoto/tiny/service/service/TinyServices.java" beforeDir="false" afterPath="$PROJECT_DIR$/SharePhoto-tiny-service/src/main/java/com/sharePhoto/tiny/service/service/TinyServices.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SharePhoto-tiny-service/src/main/java/com/sharePhoto/tiny/service/consumer/RedisServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/SharePhoto-tiny-service/src/main/java/com/sharePhoto/tiny/service/consumer/RedisServer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SharePhoto-tiny-service/src/main/java/com/sharePhoto/tiny/service/service/TinyServicesImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/SharePhoto-tiny-service/src/main/java/com/sharePhoto/tiny/service/service/TinyServicesImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SharePhoto-tiny-service/target/classes/com/sharePhoto/tiny/service/service/TinyServices.class" beforeDir="false" afterPath="$PROJECT_DIR$/SharePhoto-tiny-service/target/classes/com/sharePhoto/tiny/service/service/TinyServices.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SharePhoto-tiny-service/target/classes/com/sharePhoto/tiny/service/service/TinyServicesImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/SharePhoto-tiny-service/target/classes/com/sharePhoto/tiny/service/service/TinyServicesImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FrontEnd/config/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../FrontEnd/config/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SharePhoto-tiny-service/target/classes/com/sharePhoto/tiny/service/TinyServiceApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SharePhoto-tiny-service/target/classes/com/sharePhoto/tiny/service/config/RabbitConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SharePhoto-tiny-service/target/classes/com/sharePhoto/tiny/service/consumer/RedisServer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SharePhoto-tiny-service/target/classes/com/sharePhoto/tiny/service/controller/TinyController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SharePhoto-tiny-service/target/classes/com/sharePhoto/tiny/service/service/TinyServices.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SharePhoto-tiny-service/target/classes/com/sharePhoto/tiny/service/service/TinyServicesImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SharePhoto-tiny-service/target/classes/com/sharePhoto/tiny/service/utils/JsonSerilizable$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SharePhoto-tiny-service/target/classes/com/sharePhoto/tiny/service/utils/JsonSerilizable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SharePhoto-zuul/target/classes/com/sharePhoto/zuul/ZuulApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SharePhoto-zuul/target/classes/com/sharePhoto/zuul/exceptionHandler/CommonExceptionHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SharePhoto-zuul/target/classes/com/sharePhoto/zuul/filters/CSRFFilter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SharePhoto-zuul/target/classes/com/sharePhoto/zuul/filters/CorsConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SharePhoto-zuul/target/classes/com/sharePhoto/zuul/service/RedisServer.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../FrontEnd/config/prod.env.js" beforeDir="false" afterPath="$PROJECT_DIR$/../FrontEnd/config/prod.env.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FrontEnd/src/components/NavBar.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../FrontEnd/src/components/NavBar.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FrontEnd/src/views/Index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../FrontEnd/src/views/Index.vue" afterDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/SharePhoto-dependencies/target/" />
-    <ignored path="$PROJECT_DIR$/SharePhoto-redis/target/" />
-    <ignored path="$PROJECT_DIR$/SharePhoto-dataFaker/target/" />
     <ignored path="$PROJECT_DIR$/SharePhoto-common/target/" />
-    <ignored path="$PROJECT_DIR$/SharePhoto-admin/target/" />
-    <ignored path="$PROJECT_DIR$/SharePhoto-common-service/target/" />
-    <ignored path="$PROJECT_DIR$/SharePhoto-sso/target/" />
-    <ignored path="$PROJECT_DIR$/SharePhoto-zuul/target/" />
-    <ignored path="$PROJECT_DIR$/SharePhoto-tiny-service/target/" />
-    <ignored path="$PROJECT_DIR$/SharePhoto-auth/target/" />
     <ignored path="$PROJECT_DIR$/SharePhoto-search/target/" />
+    <ignored path="$PROJECT_DIR$/SharePhoto-common-service/target/" />
+    <ignored path="$PROJECT_DIR$/SharePhoto-config/target/" />
+    <ignored path="$PROJECT_DIR$/SharePhoto-dependencies/target/" />
+    <ignored path="$PROJECT_DIR$/SharePhoto-common-interceptor/target/" />
+    <ignored path="$PROJECT_DIR$/SharePhoto-auth/target/" />
+    <ignored path="$PROJECT_DIR$/SharePhoto-sso/target/" />
+    <ignored path="$PROJECT_DIR$/SharePhoto-redis/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -173,124 +193,49 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SharePhoto-search/src/main/resources/bootstrap.yml">
+        <entry file="file://$PROJECT_DIR$/SharePhoto-redis/src/main/resources/bootstrap.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="302">
-              <caret line="62" column="9" selection-start-line="62" selection-start-column="9" selection-end-line="62" selection-end-column="9" />
+            <state>
+              <caret selection-end-line="6" selection-end-column="19" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SharePhoto-dataFaker/src/main/java/com/sharePhoto/dataFaker/services/generateData/GenerateFakeDataImpl.java">
+        <entry file="file://$PROJECT_DIR$/SharePhoto-sso/src/main/resources/bootstrap.yml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SharePhoto-tiny-service/src/main/resources/bootstrap.yml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SharePhoto-zuul/src/main/resources/bootstrap.yml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SharePhoto-tiny-service/src/main/java/com/sharePhoto/tiny/service/service/TinyServicesImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="181">
-              <caret line="64" column="10" lean-forward="true" selection-start-line="64" selection-start-column="10" selection-end-line="64" selection-end-column="10" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="1140">
+              <caret line="74" column="55" selection-start-line="74" selection-start-column="55" selection-end-line="74" selection-end-column="55" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SharePhoto-dataFaker/src/main/java/com/sharePhoto/dataFaker/ES/repository/PhotoRepository.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="11" column="53" selection-start-line="11" selection-start-column="53" selection-end-line="11" selection-end-column="53" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-elasticsearch/3.0.7.RELEASE/spring-data-elasticsearch-3.0.7.RELEASE.jar!/org/springframework/data/elasticsearch/repository/ElasticsearchRepository.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="15" column="89" selection-start-line="15" selection-start-column="89" selection-end-line="15" selection-end-column="89" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-elasticsearch/3.0.7.RELEASE/spring-data-elasticsearch-3.0.7.RELEASE.jar!/org/springframework/data/elasticsearch/repository/ElasticsearchCrudRepository.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="12" column="86" lean-forward="true" selection-start-line="12" selection-start-column="86" selection-end-line="12" selection-end-column="86" />
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/SharePhoto-config/src/main/resources/bootstrap-prod.yml">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/SharePhoto-tiny-service/src/main/java/com/sharePhoto/tiny/service/service/TinyServicesImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="307">
-              <caret line="74" column="26" lean-forward="true" selection-start-line="74" selection-start-column="26" selection-end-line="74" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-commons/2.0.7.RELEASE/spring-data-commons-2.0.7.RELEASE.jar!/org/springframework/data/repository/PagingAndSortingRepository.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="12" column="65" lean-forward="true" selection-start-line="12" selection-start-column="65" selection-end-line="12" selection-end-column="65" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-commons/2.0.7.RELEASE/spring-data-commons-2.0.7.RELEASE.jar!/org/springframework/data/repository/CrudRepository.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="19">
-              <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SharePhoto-sso/src/main/java/com/sharePhoto/sso/service/impl/SSOServiceImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="504">
-              <caret line="147" column="52" selection-start-line="147" selection-start-column="29" selection-end-line="147" selection-end-column="59" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SharePhoto-dataFaker/src/main/resources/mapper/PhotoMapper.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="231">
-              <caret line="31" column="4" selection-start-line="31" selection-start-column="4" selection-end-line="31" selection-end-column="4" />
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/SharePhoto-config/src/main/resources/bootstrap.yml">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
-  </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Aspect" />
-        <option value="Kotlin File" />
-        <option value="Interface" />
-        <option value="Class" />
-      </list>
-    </option>
-  </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>localhost</find>
-      <find>@Autowired</find>
-      <find>sso</find>
-      <find>dataFaker</find>
-    </findStrings>
-    <replaceStrings>
-      <replace>39.106.36.194</replace>
-      <replace>dataFaker</replace>
-      <replace>@Resource</replace>
-      <replace>auth</replace>
-      <replace>search</replace>
-    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -298,56 +243,16 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/SharePhoto-auth/src/main/java/com/sharePhoto/auth/service/AuthServiceImpl.java" />
+        <option value="$PROJECT_DIR$/SharePhoto-common-interceptor/src/main/resources/bootstrap.yml" />
+        <option value="$PROJECT_DIR$/SharePhoto-common-interceptor/src/main/java/com/sharePhoto/common/interceptor/conf/DataSourceConfig.java" />
+        <option value="$PROJECT_DIR$/SharePhoto-common-interceptor/src/main/java/com/sharePhoto/common/interceptor/conf/DataSourceAop.java" />
+        <option value="$PROJECT_DIR$/SharePhoto-auth/pom.xml" />
+        <option value="$PROJECT_DIR$/SharePhoto-auth/src/main/java/com/sharePhoto/auth/configuration/interceptor/LoginInterceptor.java" />
+        <option value="$PROJECT_DIR$/SharePhoto-auth/src/main/java/com/sharePhoto/auth/configuration/interceptor/InterceptorConfiguration.java" />
+        <option value="$PROJECT_DIR$/SharePhoto-confiuration/share-photo-auth-prod.yml" />
         <option value="$PROJECT_DIR$/SharePhoto-auth/src/main/resources/bootstrap.yml" />
-        <option value="$PROJECT_DIR$/SharePhoto-auth/src/main/java/com/sharePhoto/auth/AuthApplication.java" />
-        <option value="$PROJECT_DIR$/SharePhoto-tiny-service/pom.xml" />
-        <option value="$PROJECT_DIR$/SharePhoto-confiuration/share-photo-tiny-service-prod.yml" />
-        <option value="$PROJECT_DIR$/SharePhoto-tiny-service/src/main/java/com/sharePhoto/tiny/service/config/RabbitConfig.java" />
-        <option value="$PROJECT_DIR$/SharePhoto-tiny-service/src/main/java/com/sharePhoto/tiny/service/service/TinyServices.java" />
-        <option value="$PROJECT_DIR$/SharePhoto-tiny-service/src/main/java/com/sharePhoto/tiny/service/utils/JsonSerilizable.java" />
-        <option value="$PROJECT_DIR$/SharePhoto-dataFaker/src/main/resources/bootstrap.yml" />
-        <option value="$PROJECT_DIR$/SharePhoto-dataFaker/pom.xml" />
-        <option value="$PROJECT_DIR$/SharePhoto-dataFaker/src/main/java/com/sharePhoto/dataFaker/ES/PhotoES.java" />
-        <option value="$PROJECT_DIR$/SharePhoto-dataFaker/src/main/java/com/sharePhoto/dataFaker/ES/TagES.java" />
-        <option value="$PROJECT_DIR$/SharePhoto-dataFaker/src/main/java/com/sharePhoto/dataFaker/ES/UserES.java" />
-        <option value="$PROJECT_DIR$/SharePhoto-dataFaker/src/main/java/com/sharePhoto/dataFaker/ES/EsRepository.java" />
-        <option value="$PROJECT_DIR$/SharePhoto-dataFaker/src/main/java/com/sharePhoto/dataFaker/ES/PhotoRepository.java" />
-        <option value="$PROJECT_DIR$/SharePhoto-dataFaker/src/main/java/com/sharePhoto/dataFaker/ES/repository/PhotoRepository.java" />
-        <option value="$PROJECT_DIR$/SharePhoto-dataFaker/src/main/java/com/sharePhoto/dataFaker/ES/repository/TagRepository.java" />
-        <option value="$PROJECT_DIR$/SharePhoto-dataFaker/src/main/java/com/sharePhoto/dataFaker/ES/repository/UserRepository.java" />
-        <option value="$PROJECT_DIR$/SharePhoto-dataFaker/src/main/resources/mapper/PhotoMapper.xml" />
-        <option value="$PROJECT_DIR$/SharePhoto-dataFaker/src/main/resources/mapper/TagMapper.xml" />
-        <option value="$PROJECT_DIR$/SharePhoto-dataFaker/src/main/java/com/sharePhoto/dataFaker/dao/TagMapper.java" />
-        <option value="$PROJECT_DIR$/SharePhoto-dataFaker/src/main/java/com/sharePhoto/dataFaker/dao/PhotoMapper.java" />
-        <option value="$PROJECT_DIR$/SharePhoto-dataFaker/src/main/java/com/sharePhoto/dataFaker/dao/UserMapper.java" />
-        <option value="$PROJECT_DIR$/SharePhoto-dataFaker/src/main/resources/mapper/UserMapper.xml" />
-        <option value="$PROJECT_DIR$/.idea/workspace.xml" />
-        <option value="$PROJECT_DIR$/SharePhoto-dataFaker/src/main/java/com/sharePhoto/dataFaker/services/generateData/GenerateFakeDataImpl.java" />
-        <option value="$PROJECT_DIR$/SharePhoto-dataFaker/src/test/java/ESIndexTypesGeneratorTest.java" />
-        <option value="$PROJECT_DIR$/SharePhoto-dataFaker/src/main/java/com/sharePhoto/dataFaker/ES/type/PhotoES.java" />
-        <option value="$PROJECT_DIR$/SharePhoto-dataFaker/src/main/java/com/sharePhoto/dataFaker/ES/type/TagES.java" />
-        <option value="$PROJECT_DIR$/SharePhoto-dataFaker/src/main/java/com/sharePhoto/dataFaker/ES/type/UserES.java" />
-        <option value="$PROJECT_DIR$/SharePhoto-search/src/main/java/com/sharePhoto/searchApplication.java" />
-        <option value="$PROJECT_DIR$/SharePhoto-search/src/main/java/com/sharePhoto/search/config/MyBatisConfig.java" />
-        <option value="$PROJECT_DIR$/SharePhoto-search/src/main/java/com/sharePhoto/search/config/DataSourceAop.java" />
-        <option value="$PROJECT_DIR$/SharePhoto-search/src/main/java/com/sharePhoto/search/searchApplication.java" />
-        <option value="$PROJECT_DIR$/SharePhoto-search/src/main/java/com/sharePhoto/search/entity/TagES.java" />
-        <option value="$PROJECT_DIR$/SharePhoto-search/src/main/java/com/sharePhoto/search/ES/TagES.java" />
-        <option value="$PROJECT_DIR$/SharePhoto-search/src/main/java/com/sharePhoto/search/ES/type/UserES.java" />
-        <option value="$PROJECT_DIR$/SharePhoto-search/src/main/java/com/sharePhoto/search/ES/repository/TagRepository.java" />
-        <option value="$PROJECT_DIR$/SharePhoto-search/src/main/java/com/sharePhoto/search/ES/repository/PhotoRepository.java" />
-        <option value="$PROJECT_DIR$/SharePhoto-search/src/main/java/com/sharePhoto/search/ES/repository/UserRepository.java" />
-        <option value="$PROJECT_DIR$/SharePhoto-search/src/main/java/com/sharePhoto/search/consumer/RedisHystrix.java" />
-        <option value="$PROJECT_DIR$/SharePhoto-search/pom.xml" />
-        <option value="$PROJECT_DIR$/SharePhoto-search/src/main/java/com/sharePhoto/search/consumer/RedisServer.java" />
-        <option value="$PROJECT_DIR$/SharePhoto-search/src/main/java/com/sharePhoto/search/dao/UserMapper.java" />
-        <option value="$PROJECT_DIR$/SharePhoto-search/src/main/resources/mapper/UserMapper.xml" />
-        <option value="$PROJECT_DIR$/SharePhoto-search/src/main/java/com/sharePhoto/search/service/searchService.java" />
-        <option value="$PROJECT_DIR$/SharePhoto-search/src/main/java/com/sharePhoto/search/service/searchServiceImpl.java" />
+        <option value="$PROJECT_DIR$/SharePhoto-confiuration/share-photo-search-prod.yml" />
         <option value="$PROJECT_DIR$/SharePhoto-search/src/main/resources/bootstrap.yml" />
-        <option value="$PROJECT_DIR$/SharePhoto-search/src/main/java/com/sharePhoto/search/controller/searchController.java" />
-        <option value="$PROJECT_DIR$/SharePhoto-search/src/main/java/com/sharePhoto/search/service/searchServicesImpl.java" />
         <option value="$PROJECT_DIR$/SharePhoto-tiny-service/src/main/java/com/sharePhoto/tiny/service/service/TinyServicesImpl.java" />
       </list>
     </option>
@@ -386,284 +291,7 @@
     <panes>
       <pane id="Scope" />
       <pane id="PackagesPane" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="BackEnd" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BackEnd" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BackEnd" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BackEnd" type="462c0819:PsiDirectoryNode" />
-              <item name="SharePhoto-dataFaker" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BackEnd" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BackEnd" type="462c0819:PsiDirectoryNode" />
-              <item name="SharePhoto-dataFaker" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BackEnd" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BackEnd" type="462c0819:PsiDirectoryNode" />
-              <item name="SharePhoto-dataFaker" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BackEnd" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BackEnd" type="462c0819:PsiDirectoryNode" />
-              <item name="SharePhoto-dataFaker" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BackEnd" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BackEnd" type="462c0819:PsiDirectoryNode" />
-              <item name="SharePhoto-dataFaker" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="dataFaker" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BackEnd" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BackEnd" type="462c0819:PsiDirectoryNode" />
-              <item name="SharePhoto-dataFaker" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="dataFaker" type="462c0819:PsiDirectoryNode" />
-              <item name="dao" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BackEnd" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BackEnd" type="462c0819:PsiDirectoryNode" />
-              <item name="SharePhoto-dataFaker" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="dataFaker" type="462c0819:PsiDirectoryNode" />
-              <item name="services" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BackEnd" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BackEnd" type="462c0819:PsiDirectoryNode" />
-              <item name="SharePhoto-dataFaker" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="dataFaker" type="462c0819:PsiDirectoryNode" />
-              <item name="services" type="462c0819:PsiDirectoryNode" />
-              <item name="generateData" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BackEnd" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BackEnd" type="462c0819:PsiDirectoryNode" />
-              <item name="SharePhoto-redis" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BackEnd" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BackEnd" type="462c0819:PsiDirectoryNode" />
-              <item name="SharePhoto-redis" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BackEnd" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BackEnd" type="462c0819:PsiDirectoryNode" />
-              <item name="SharePhoto-redis" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BackEnd" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BackEnd" type="462c0819:PsiDirectoryNode" />
-              <item name="SharePhoto-redis" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BackEnd" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BackEnd" type="462c0819:PsiDirectoryNode" />
-              <item name="SharePhoto-redis" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="redis" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BackEnd" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BackEnd" type="462c0819:PsiDirectoryNode" />
-              <item name="SharePhoto-search" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BackEnd" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BackEnd" type="462c0819:PsiDirectoryNode" />
-              <item name="SharePhoto-search" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BackEnd" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BackEnd" type="462c0819:PsiDirectoryNode" />
-              <item name="SharePhoto-search" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BackEnd" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BackEnd" type="462c0819:PsiDirectoryNode" />
-              <item name="SharePhoto-search" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BackEnd" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BackEnd" type="462c0819:PsiDirectoryNode" />
-              <item name="SharePhoto-search" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="search" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BackEnd" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BackEnd" type="462c0819:PsiDirectoryNode" />
-              <item name="SharePhoto-search" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="search" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BackEnd" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BackEnd" type="462c0819:PsiDirectoryNode" />
-              <item name="SharePhoto-search" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="search" type="462c0819:PsiDirectoryNode" />
-              <item name="dao" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BackEnd" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BackEnd" type="462c0819:PsiDirectoryNode" />
-              <item name="SharePhoto-search" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="search" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BackEnd" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BackEnd" type="462c0819:PsiDirectoryNode" />
-              <item name="SharePhoto-sso" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BackEnd" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BackEnd" type="462c0819:PsiDirectoryNode" />
-              <item name="SharePhoto-sso" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BackEnd" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BackEnd" type="462c0819:PsiDirectoryNode" />
-              <item name="SharePhoto-sso" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BackEnd" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BackEnd" type="462c0819:PsiDirectoryNode" />
-              <item name="SharePhoto-sso" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BackEnd" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BackEnd" type="462c0819:PsiDirectoryNode" />
-              <item name="SharePhoto-sso" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="sso" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BackEnd" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BackEnd" type="462c0819:PsiDirectoryNode" />
-              <item name="SharePhoto-sso" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="sso" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BackEnd" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BackEnd" type="462c0819:PsiDirectoryNode" />
-              <item name="SharePhoto-sso" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="sso" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="impl" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BackEnd" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BackEnd" type="462c0819:PsiDirectoryNode" />
-              <item name="SharePhoto-tiny-service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BackEnd" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BackEnd" type="462c0819:PsiDirectoryNode" />
-              <item name="SharePhoto-tiny-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BackEnd" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BackEnd" type="462c0819:PsiDirectoryNode" />
-              <item name="SharePhoto-tiny-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BackEnd" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BackEnd" type="462c0819:PsiDirectoryNode" />
-              <item name="SharePhoto-tiny-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BackEnd" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BackEnd" type="462c0819:PsiDirectoryNode" />
-              <item name="SharePhoto-tiny-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BackEnd" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BackEnd" type="462c0819:PsiDirectoryNode" />
-              <item name="SharePhoto-tiny-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
+      <pane id="ProjectPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -673,35 +301,19 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1559829314285" />
-    <property name="dynamic.classpath" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/SharePhoto-search/pom.xml" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1560003685546" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/SharePhoto-sso/pom.xml" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="com.sharePhoto.search.service" />
-      <recent name="com.sharePhoto.auth.service" />
-      <recent name="com.sharePhoto.tiny.service" />
-    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.sharePhoto.search.dao" />
-      <recent name="com.sharePhoto.auth.dao" />
-      <recent name="com.sharePhoto.dataFaker.config" />
-      <recent name="com.sharePhoto.zuul.service" />
-      <recent name="com.sharePhoto.tiny.service.consumer" />
+      <recent name="com.sharePhoto.auth.configuration.interceptor" />
+      <recent name="com.sharePhoto.common.interceptor.conf" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\Users\joher\IdeaProjects\website-micro_service\BackEnd\SharePhoto-search\src\main\resources\mapper" />
-      <recent name="E:\Users\joher\IdeaProjects\website-micro_service\BackEnd\SharePhoto-search\src\main\java\com\sharePhoto\search\consumer" />
-      <recent name="E:\Users\joher\IdeaProjects\website-micro_service\BackEnd\SharePhoto-search\src\main\java\com\sharePhoto\search\ES\repository" />
-      <recent name="E:\Users\joher\IdeaProjects\website-micro_service\BackEnd\SharePhoto-search\src\main\java\com\sharePhoto\search\entity" />
-      <recent name="E:\Users\joher\IdeaProjects\website-micro_service\BackEnd\SharePhoto-search\src\main\java\com\sharePhoto\search\config" />
+      <recent name="E:\Users\joher\IdeaProjects\website-micro_service\BackEnd\SharePhoto-common-interceptor\src\main\java\com\sharePhoto\common\interceptor\conf" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -721,123 +333,58 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.RedisApplication">
-    <configuration name="TinyServiceApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.sharePhoto.tiny.service.TinyServiceApplication" />
-      <module name="share-photo-tiny-service" />
+  <component name="RunManager" selected="Spring Boot.InterceptorApplication">
+    <configuration name="AuthApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="share-photo-auth" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.sharePhoto.tiny.service.*" />
+          <option name="PATTERN" value="com.sharePhoto.auth.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AATest.testRead" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="share-photo-dataFaker" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="AATest" />
-      <option name="METHOD_NAME" value="testRead" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AaTest.get" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="share-photo-sso" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="AaTest" />
-      <option name="METHOD_NAME" value="get" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ESIndexTypesGeneratorTest.deleteIndex" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="share-photo-dataFaker" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ESIndexTypesGeneratorTest" />
-      <option name="METHOD_NAME" value="deleteIndex" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ESIndexTypesGeneratorTest.generateIndexType" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="share-photo-dataFaker" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ESIndexTypesGeneratorTest" />
-      <option name="METHOD_NAME" value="generateIndexType" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AdminApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="share-photo-admin" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.sharePhoto.admin.AdminApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AuthApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="share-photo-auth" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.sharePhoto.auth.AuthApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RedisApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+    <configuration name="ConfigApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="share-photo-config" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.sharePhoto.config.ConfigApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="InterceptorApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="share-photo-common-interceptor" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sharePhoto.common.interceptor.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.sharePhoto.common.interceptor.InterceptorApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RedisApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="share-photo-redis" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sharePhoto.redis.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.sharePhoto.redis.RedisApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SSOApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="share-photo-sso" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.sharePhoto.sso.SSOApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TinyServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="share-photo-tiny-service" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.sharePhoto.tiny.service.TinyServiceApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ZuulApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="share-photo-zuul" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.sharePhoto.zuul.ZuulApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="dataFakerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="share-photo-dataFaker" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.sharePhoto.dataFaker.dataFakerApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="searchApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="share-photo-search" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.sharePhoto.search.searchApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.ESIndexTypesGeneratorTest.deleteIndex" />
-        <item itemvalue="JUnit.ESIndexTypesGeneratorTest.generateIndexType" />
-        <item itemvalue="Application.TinyServiceApplication" />
-        <item itemvalue="JUnit.AaTest.get" />
-        <item itemvalue="JUnit.AATest.testRead" />
+        <item itemvalue="Spring Boot.AuthApplication" />
+        <item itemvalue="Spring Boot.RedisApplication" />
+        <item itemvalue="Spring Boot.InterceptorApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -846,67 +393,33 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="ca4df540-2e1a-4d31-846b-e360900efc3c" name="Default Changelist" comment="" />
-      <created>1559481819950</created>
+      <changelist id="b0f5c323-ef91-423e-85e5-7a7d7b8f6d15" name="Default Changelist" comment="" />
+      <created>1559897005730</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1559481819950</updated>
-      <workItem from="1559481835415" duration="6580000" />
-      <workItem from="1559518209944" duration="17989000" />
-      <workItem from="1559538641740" duration="12215000" />
-      <workItem from="1559552874873" duration="10146000" />
-      <workItem from="1559569379300" duration="6877000" />
-      <workItem from="1559605158460" duration="4570000" />
-      <workItem from="1559621052204" duration="10939000" />
-      <workItem from="1559635310088" duration="5838000" />
-      <workItem from="1559654573962" duration="704000" />
-      <workItem from="1559706869930" duration="12753000" />
-      <workItem from="1559722467572" duration="4509000" />
-      <workItem from="1559738351244" duration="7626000" />
-      <workItem from="1559794728926" duration="27598000" />
+      <updated>1559897005730</updated>
+      <workItem from="1559897009861" duration="3679000" />
+      <workItem from="1559907824150" duration="78000" />
+      <workItem from="1560001274763" duration="999000" />
     </task>
     <servers />
   </component>
-  <component name="TestHistory">
-    <history-entry file="ESIndexTypesGeneratorTest_generateIndexType - 2019.06.06 at 13h 54m 30s.xml">
-      <configuration name="ESIndexTypesGeneratorTest.generateIndexType" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ESIndexTypesGeneratorTest_generateIndexType - 2019.06.06 at 14h 03m 35s.xml">
-      <configuration name="ESIndexTypesGeneratorTest.generateIndexType" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ESIndexTypesGeneratorTest_generateIndexType - 2019.06.06 at 14h 06m 36s.xml">
-      <configuration name="ESIndexTypesGeneratorTest.generateIndexType" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ESIndexTypesGeneratorTest_deleteIndex - 2019.06.06 at 14h 44m 10s.xml">
-      <configuration name="ESIndexTypesGeneratorTest.deleteIndex" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ESIndexTypesGeneratorTest_deleteIndex - 2019.06.06 at 14h 46m 31s.xml">
-      <configuration name="ESIndexTypesGeneratorTest.deleteIndex" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ESIndexTypesGeneratorTest_deleteIndex - 2019.06.06 at 14h 49m 59s.xml">
-      <configuration name="ESIndexTypesGeneratorTest.deleteIndex" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ESIndexTypesGeneratorTest_generateIndexType - 2019.06.06 at 14h 51m 16s.xml">
-      <configuration name="ESIndexTypesGeneratorTest.generateIndexType" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ESIndexTypesGeneratorTest_deleteIndex - 2019.06.06 at 14h 58m 51s.xml">
-      <configuration name="ESIndexTypesGeneratorTest.deleteIndex" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ESIndexTypesGeneratorTest_generateIndexType - 2019.06.06 at 15h 01m 08s.xml">
-      <configuration name="ESIndexTypesGeneratorTest.generateIndexType" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ESIndexTypesGeneratorTest_deleteIndex - 2019.06.06 at 15h 09m 20s.xml">
-      <configuration name="ESIndexTypesGeneratorTest.deleteIndex" configurationId="JUnit" />
-    </history-entry>
-  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="128344000" />
+    <option name="totallyTimeSpent" value="4756000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.29545453" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25757575" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -915,22 +428,22 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32847896" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.90614885" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.9223301" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.89644015" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Spring" order="7" weight="0.32847896" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32847896" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32847896" />
+      <window_info anchor="bottom" id="Spring" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5007576" side_tool="true" weight="0.512945" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.32847896" />
       <window_info anchor="bottom" id="Problems" order="12" weight="0.32847896" />
-      <window_info anchor="bottom" id="Java Enterprise" order="13" weight="0.32847896" />
+      <window_info anchor="bottom" id="Java Enterprise" order="13" />
       <window_info anchor="bottom" id="Database Changes" order="14" />
-      <window_info anchor="bottom" id="Version Control" order="15" weight="0.32847896" />
-      <window_info anchor="bottom" id="Run Dashboard" order="16" sideWeight="0.49924242" weight="0.6537217" />
+      <window_info anchor="bottom" id="Version Control" order="15" />
+      <window_info anchor="bottom" id="Run Dashboard" order="16" weight="0.50403875" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -942,531 +455,210 @@
       <window_info anchor="right" id="Theme Preview" order="8" />
       <window_info anchor="right" id="Bean Validation" order="9" />
     </layout>
-    <layout-to-restore>
-      <window_info id="Designer" order="0" />
-      <window_info id="Image Layers" order="1" />
-      <window_info id="Capture Tool" order="2" />
-      <window_info id="UI Designer" order="3" />
-      <window_info id="Favorites" order="4" side_tool="true" />
-      <window_info id="Web" order="5" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="6" visible="true" weight="0.25" />
-      <window_info id="Structure" order="7" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Spring" order="0" />
-      <window_info anchor="bottom" id="Terminal" order="1" />
-      <window_info anchor="bottom" id="Docker" order="2" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="3" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="4" weight="0.32847896" />
-      <window_info anchor="bottom" id="Problems" order="5" />
-      <window_info anchor="bottom" id="Java Enterprise" order="6" />
-      <window_info anchor="bottom" id="Database Changes" order="7" />
-      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32847896" />
-      <window_info anchor="bottom" id="Run Dashboard" order="9" weight="0.32847896" />
-      <window_info anchor="bottom" id="Message" order="10" />
-      <window_info anchor="bottom" id="Find" order="11" />
-      <window_info anchor="bottom" id="Run" order="12" weight="0.80097085" />
-      <window_info anchor="bottom" id="Debug" order="13" weight="0.9223301" />
-      <window_info anchor="bottom" id="Cvs" order="14" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="15" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="16" />
-      <window_info anchor="right" id="Maven" order="0" weight="0.32954547" />
-      <window_info anchor="right" id="Palette" order="1" />
-      <window_info anchor="right" id="Capture Analysis" order="2" />
-      <window_info anchor="right" id="Database" order="3" />
-      <window_info anchor="right" id="Palette&#9;" order="4" />
-      <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="right" id="Bean Validation" order="6" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="7" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="8" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="9" weight="0.25" />
-    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/SharePhoto-sso/src/main/java/com/sharePhoto/sso/read/DataSourceAop.java</url>
-          <line>29</line>
-          <properties />
-          <option name="timeStamp" value="30" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
-    <watches-manager>
-      <configuration name="SpringBootApplicationConfigurationType">
-        <watch expression="user.passwordHash" />
-      </configuration>
-    </watches-manager>
-  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/SharePhoto-dataFaker/src/test/java/ESIndexTypesGeneratorTest.java">
+    <entry file="file://$PROJECT_DIR$/SharePhoto-common-interceptor/src/main/java/com/sharePhoto/common/interceptor/interceptor/LoginInterceptor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="245">
-          <caret line="29" column="56" selection-start-line="29" selection-start-column="56" selection-end-line="29" selection-end-column="56" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="226">
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SharePhoto-search/src/main/java/com/sharePhoto/searchApplication.java">
+    <entry file="file://$PROJECT_DIR$/SharePhoto-common-interceptor/src/main/java/com/sharePhoto/common/interceptor/redis/RedisServer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="19" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
+        <state relative-caret-position="212">
+          <caret line="16" column="17" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SharePhoto-dataFaker/pom.xml">
+    <entry file="file://$PROJECT_DIR$/SharePhoto-auth/src/main/java/com/sharePhoto/auth/controller/AuthController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="78" column="21" selection-end-line="81" selection-end-column="10" />
+        <state relative-caret-position="-261">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SharePhoto-search/src/main/resources/bootstrap.yml.kt">
+    <entry file="file://$PROJECT_DIR$/SharePhoto-confiuration/share-photo-sso-prod.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        <state relative-caret-position="-684">
+          <caret line="6" column="10" lean-forward="true" selection-end-line="71" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SharePhoto-dataFaker/src/main/resources/bootstrap.yml">
+    <entry file="file://$PROJECT_DIR$/SharePhoto-auth/src/main/java/com/sharePhoto/auth/dao/UserMapper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="45" selection-end-column="12" />
+        <state relative-caret-position="67">
+          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SharePhoto-dataFaker/src/main/java/com/sharePhoto/dataFaker/dataFakerApplication.java">
+    <entry file="file://$PROJECT_DIR$/SharePhoto-common-interceptor/src/main/java/com/sharePhoto/common/interceptor/conf/DataSourceAop.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SharePhoto-common-interceptor/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="17" selection-start-line="17" selection-end-line="19" selection-end-column="5" />
+        <state relative-caret-position="418">
+          <caret line="34" selection-start-line="34" selection-end-line="37" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SharePhoto-search/src/main/java/com/sharePhoto/search/config/MyBatisConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SharePhoto-tiny-service/src/main/java/com/sharePhoto/tiny/service/TinyServiceApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SharePhoto-search/src/main/java/com/sharePhoto/search/config/DataSourceAop.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="388">
-          <caret line="30" selection-start-line="30" selection-end-line="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SharePhoto-search/src/main/java/com/sharePhoto/search/config/DataSourceConfig.java">
+    <entry file="file://$PROJECT_DIR$/SharePhoto-sso/src/main/java/com/sharePhoto/sso/config/DataSourceConfig.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
           <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SharePhoto-search/src/main/java/com/sharePhoto/search/ES/repository/UserRepository.java">
+    <entry file="file://$PROJECT_DIR$/SharePhoto-auth/src/main/java/com/sharePhoto/auth/service/AuthServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="31" column="13" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SharePhoto-common-interceptor/src/main/java/com/sharePhoto/common/interceptor/InterceptorApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SharePhoto-common-interceptor/src/main/resources/bootstrap.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="874">
+          <caret line="46" selection-start-line="46" selection-end-line="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SharePhoto-auth/src/main/java/com/sharePhoto/auth/AuthApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SharePhoto-auth/src/main/java/com/sharePhoto/auth/consumer/RedisServer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="228">
-          <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+          <caret line="16" column="18" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SharePhoto-search/src/main/java/com/sharePhoto/search/ES/repository/TagRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" column="65" lean-forward="true" selection-start-line="12" selection-start-column="65" selection-end-line="12" selection-end-column="65" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SharePhoto-search/src/main/java/com/sharePhoto/search/ES/repository/PhotoRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SharePhoto-search/src/main/java/com/sharePhoto/search/ES/type/TagES.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="279">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-elasticsearch/3.0.7.RELEASE/spring-data-elasticsearch-3.0.7.RELEASE.jar!/org/springframework/data/elasticsearch/core/query/NativeSearchQueryBuilder.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="474">
-          <caret line="38" column="11" selection-start-line="38" selection-start-column="11" selection-end-line="38" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-commons/2.0.7.RELEASE/spring-data-commons-2.0.7.RELEASE.jar!/org/springframework/data/domain/Pageable.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-169">
-          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SharePhoto-search/src/main/java/com/sharePhoto/search/consumer/RedisHystrix.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SharePhoto-search/src/main/java/com/sharePhoto/search/searchApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="16" column="19" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SharePhoto-sso/src/main/java/com/sharePhoto/sso/SSOApplication.java">
+    <entry file="file://$PROJECT_DIR$/SharePhoto-common-interceptor/src/main/java/com/sharePhoto/common/interceptor/conf/MyBatisConfig.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="190">
-          <caret line="17" selection-start-line="17" selection-end-line="17" selection-end-column="19" />
+          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SharePhoto-search/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="301">
-          <caret line="37" column="21" selection-start-line="37" selection-start-column="21" selection-end-line="37" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SharePhoto-search/src/main/java/com/sharePhoto/search/consumer/RedisServer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SharePhoto-sso/src/main/java/com/sharePhoto/sso/consumer/RedisServer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="15" column="17" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SharePhoto-sso/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="30" selection-start-line="30" selection-end-line="33" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SharePhoto-search/src/main/java/com/sharePhoto/search/ES/type/UserES.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-141">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SharePhoto-redis/src/main/java/com/sharePhoto/redis/controller/RedisController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SharePhoto-redis/src/main/java/com/sharePhoto/redis/service/impl/RedisServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SharePhoto-redis/src/main/java/com/sharePhoto/redis/service/RedisService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SharePhoto-dataFaker/src/main/java/com/sharePhoto/dataFaker/dao/UserMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="10" selection-start-line="10" selection-end-line="23" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SharePhoto-search/src/main/resources/mapper/UserMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="353">
-          <caret line="33" column="79" selection-start-line="33" selection-start-column="79" selection-end-line="33" selection-end-column="79" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/5.6.9/elasticsearch-5.6.9.jar!/org/elasticsearch/index/query/QueryBuilders.class">
+    <entry file="file://$PROJECT_DIR$/SharePhoto-common-interceptor/src/main/java/com/sharePhoto/common/interceptor/conf/DataSourceConfig.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="304">
-          <caret line="90" column="5" selection-start-line="90" selection-start-column="5" selection-end-line="90" selection-end-column="5" />
-          <folding>
-            <element signature="e#3171#3172#0" expanded="true" />
-            <element signature="e#3228#3229#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/5.6.9/elasticsearch-5.6.9.jar!/org/elasticsearch/index/query/BoolQueryBuilder.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="116" column="28" selection-start-line="116" selection-start-column="28" selection-end-line="116" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/5.6.9/elasticsearch-5.6.9.jar!/org/elasticsearch/search/SearchService.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="94" column="13" selection-start-line="94" selection-start-column="13" selection-end-line="94" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SharePhoto-search/src/main/java/com/sharePhoto/search/service/searchServices.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="4" lean-forward="true" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
+          <caret line="28" column="56" selection-start-line="28" selection-start-column="46" selection-end-line="28" selection-end-column="56" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SharePhoto-search/src/main/java/com/sharePhoto/search/ES/type/PhotoES.java">
+    <entry file="file://$PROJECT_DIR$/SharePhoto-auth/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="258">
-          <caret line="64" column="19" lean-forward="true" selection-start-line="64" selection-start-column="19" selection-end-line="64" selection-end-column="30" />
+        <state relative-caret-position="627">
+          <caret line="33" column="21" selection-start-line="33" selection-start-column="21" selection-end-line="33" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SharePhoto-auth/src/main/java/com/sharePhoto/auth/configuration/interceptor/LoginInterceptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="201">
+          <caret line="30" selection-start-line="30" selection-end-line="30" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SharePhoto-auth/src/main/java/com/sharePhoto/auth/configuration/interceptor/InterceptorConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="11" column="4" lean-forward="true" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#508#509#0" expanded="true" />
+            <element signature="e#553#554#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SharePhoto-confiuration/share-photo-auth-prod.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1786">
+          <caret line="94" column="39" selection-start-line="94" selection-start-column="39" selection-end-line="94" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SharePhoto-eureka/src/main/resources/bootstrap-prod.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="6" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SharePhoto-auth/src/main/resources/bootstrap.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="28" selection-start-line="4" selection-start-column="28" selection-end-line="4" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SharePhoto-confiuration/share-photo-search-prod.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="530">
+          <caret line="79" column="17" selection-start-line="79" selection-start-column="17" selection-end-line="79" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SharePhoto-search/src/main/resources/bootstrap.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="30" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SharePhoto-redis/src/main/resources/bootstrap.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="6" selection-end-column="19" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/SharePhoto-sso/src/main/resources/bootstrap.yml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/SharePhoto-redis/src/main/java/com/sharePhoto/redis/RedisApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/SharePhoto-tiny-service/src/main/resources/bootstrap.yml">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/SharePhoto-search/src/main/java/com/sharePhoto/search/service/searchServicesImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1314">
-          <caret line="104" column="59" selection-start-line="104" selection-start-column="59" selection-end-line="104" selection-end-column="59" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SharePhoto-search/src/main/java/com/sharePhoto/search/controller/searchController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="245">
-          <caret line="17" column="15" selection-start-line="17" selection-start-column="15" selection-end-line="17" selection-end-column="15" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SharePhoto-confiuration/share-photo-sso-prod.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="950">
-          <caret line="53" selection-start-line="53" selection-end-line="71" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SharePhoto-search/src/main/java/com/sharePhoto/search/dao/UserMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="32" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SharePhoto-dataFaker/src/main/java/com/sharePhoto/dataFaker/dao/PhotoMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="14" column="9" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SharePhoto-dataFaker/src/main/resources/mapper/PhotoMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="31" column="4" selection-start-line="31" selection-start-column="4" selection-end-line="31" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SharePhoto-search/src/main/resources/bootstrap.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="302">
-          <caret line="62" column="9" selection-start-line="62" selection-start-column="9" selection-end-line="62" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SharePhoto-dataFaker/src/main/java/com/sharePhoto/dataFaker/services/generateData/GenerateFakeDataImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="181">
-          <caret line="64" column="10" lean-forward="true" selection-start-line="64" selection-start-column="10" selection-end-line="64" selection-end-column="10" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SharePhoto-dataFaker/src/main/java/com/sharePhoto/dataFaker/ES/repository/PhotoRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="11" column="53" selection-start-line="11" selection-start-column="53" selection-end-line="11" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-elasticsearch/3.0.7.RELEASE/spring-data-elasticsearch-3.0.7.RELEASE.jar!/org/springframework/data/elasticsearch/repository/ElasticsearchRepository.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="15" column="89" selection-start-line="15" selection-start-column="89" selection-end-line="15" selection-end-column="89" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-elasticsearch/3.0.7.RELEASE/spring-data-elasticsearch-3.0.7.RELEASE.jar!/org/springframework/data/elasticsearch/repository/ElasticsearchCrudRepository.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="12" column="86" lean-forward="true" selection-start-line="12" selection-start-column="86" selection-end-line="12" selection-end-column="86" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-commons/2.0.7.RELEASE/spring-data-commons-2.0.7.RELEASE.jar!/org/springframework/data/repository/PagingAndSortingRepository.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="12" column="65" lean-forward="true" selection-start-line="12" selection-start-column="65" selection-end-line="12" selection-end-column="65" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-commons/2.0.7.RELEASE/spring-data-commons-2.0.7.RELEASE.jar!/org/springframework/data/repository/CrudRepository.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SharePhoto-sso/src/main/java/com/sharePhoto/sso/service/impl/SSOServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="147" column="52" selection-start-line="147" selection-start-column="29" selection-end-line="147" selection-end-column="59" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/SharePhoto-zuul/src/main/resources/bootstrap.yml">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/SharePhoto-tiny-service/src/main/java/com/sharePhoto/tiny/service/service/TinyServicesImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="307">
-          <caret line="74" column="26" lean-forward="true" selection-start-line="74" selection-start-column="26" selection-end-line="74" selection-end-column="26" />
+        <state relative-caret-position="1140">
+          <caret line="74" column="55" selection-start-line="74" selection-start-column="55" selection-end-line="74" selection-end-column="55" />
         </state>
       </provider>
     </entry>
-  </component>
-  <component name="masterDetails">
-    <states>
-      <state key="ArtifactsStructureConfigurable.UI">
-        <settings>
-          <artifact-editor />
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="FacetStructureConfigurable.UI">
-        <settings>
-          <last-edited>Spring</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="GlobalLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="JdkListConfigurable.UI">
-        <settings>
-          <last-edited>1.8</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ModuleStructureConfigurable.UI">
-        <settings>
-          <last-edited>Spring|share-photo-common-service</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectLibrariesConfigurable.UI">
-        <settings>
-          <last-edited>Maven: antlr:antlr:2.7.7</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-    </states>
+    <entry file="file://$PROJECT_DIR$/SharePhoto-config/src/main/resources/bootstrap-prod.yml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SharePhoto-config/src/main/resources/bootstrap.yml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
   </component>
 </project>

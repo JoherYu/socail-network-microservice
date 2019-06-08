@@ -1,6 +1,7 @@
 package com.sharePhoto.search.service;
 
 import com.alibaba.fastjson.JSONObject;
+import com.rabbitmq.client.Channel;
 import com.sharePhoto.common.CookieUtils;
 import com.sharePhoto.common.service.entity.User;
 import com.sharePhoto.search.ES.repository.PhotoRepository;
@@ -11,7 +12,10 @@ import com.sharePhoto.search.ES.type.TagES;
 import com.sharePhoto.search.ES.type.UserES;
 import com.sharePhoto.search.consumer.RedisServer;
 import com.sharePhoto.search.dao.UserMapper;
+import com.sharePhoto.search.utils.JsonSerilizable;
 import org.elasticsearch.index.query.QueryBuilders;
+import org.springframework.amqp.core.Message;
+import org.springframework.amqp.rabbit.annotation.RabbitListener;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.data.domain.Pageable;
@@ -20,6 +24,7 @@ import org.springframework.stereotype.Service;
 
 import javax.annotation.Resource;
 import javax.servlet.http.HttpServletRequest;
+import java.io.IOException;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
@@ -132,5 +137,15 @@ public class searchServicesImpl implements searchServices {
         pagination.put("items", resultContent);
 
         return pagination;
+    }
+
+    @Override
+    @RabbitListener(queues = "es")
+    public void insertUser(Message message, Channel channel) throws IOException {
+        Map<String, Integer> esMessage = JsonSerilizable.deserilizableForMapFromFile(new String(message.getBody()), Integer.class);
+        Integer id = esMessage.get("id");
+        UserES user = userMapper.selectUserDocument(id);
+        userRepository.save(user);
+        channel.basicAck(message.getMessageProperties().getDeliveryTag(), true);
     }
 }

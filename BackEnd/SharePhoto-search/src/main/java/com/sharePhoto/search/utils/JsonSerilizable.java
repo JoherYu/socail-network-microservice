@@ -1,4 +1,4 @@
-package com.sharePhoto.tiny.service.utils;
+package com.sharePhoto.search.utils;
 
 import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.TypeReference;

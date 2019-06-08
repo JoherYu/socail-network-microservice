@@ -5,14 +5,17 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration;
 import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
+import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
+import org.springframework.cloud.openfeign.EnableFeignClients;
 import org.springframework.context.annotation.EnableAspectJAutoProxy;
 
 /**
  * @author Joher
  * @data 2019/6/5
  **/
-
+@EnableEurekaClient
 @EnableDiscoveryClient
+@EnableFeignClients
 @EnableAspectJAutoProxy(proxyTargetClass = true)
 @SpringBootApplication(exclude= {DataSourceAutoConfiguration.class})
 @MapperScan("com.sharePhoto.auth.dao")

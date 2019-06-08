@@ -1,4 +1,4 @@
-package com.sharePhoto.search.consumer;
+package com.sharePhoto.auth.consumer;
 
 
 import org.springframework.cloud.openfeign.FeignClient;

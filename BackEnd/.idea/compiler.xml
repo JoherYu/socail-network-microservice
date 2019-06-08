@@ -6,44 +6,37 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="share-photo-admin" />
         <module name="share-photo-auth" />
         <module name="share-photo-common" />
         <module name="share-photo-common-service" />
-        <module name="share-photo-dataFaker" />
+        <module name="share-photo-config" />
         <module name="share-photo-redis" />
         <module name="share-photo-search" />
         <module name="share-photo-sso" />
-        <module name="share-photo-tiny-service" />
-        <module name="share-photo-zuul" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="share-photo-admin" target="1.8" />
       <module name="share-photo-auth" target="1.8" />
       <module name="share-photo-common" target="1.8" />
+      <module name="share-photo-common-interceptor" target="1.8" />
       <module name="share-photo-common-service" target="1.8" />
-      <module name="share-photo-dataFaker" target="1.8" />
+      <module name="share-photo-config" target="1.8" />
       <module name="share-photo-dependencies" target="1.8" />
       <module name="share-photo-redis" target="1.8" />
       <module name="share-photo-search" target="1.8" />
       <module name="share-photo-sso" target="1.8" />
-      <module name="share-photo-tiny-service" target="1.8" />
-      <module name="share-photo-zuul" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="share-photo-admin" options="-parameters" />
       <module name="share-photo-auth" options="-parameters" />
       <module name="share-photo-common" options="-parameters" />
+      <module name="share-photo-common-interceptor" options="-parameters" />
       <module name="share-photo-common-service" options="-parameters" />
-      <module name="share-photo-dataFaker" options="-parameters" />
+      <module name="share-photo-config" options="-parameters" />
       <module name="share-photo-redis" options="-parameters" />
       <module name="share-photo-search" options="-parameters" />
       <module name="share-photo-sso" options="-parameters" />
-      <module name="share-photo-tiny-service" options="-parameters" />
-      <module name="share-photo-zuul" options="-parameters" />
     </option>
   </component>
 </project>

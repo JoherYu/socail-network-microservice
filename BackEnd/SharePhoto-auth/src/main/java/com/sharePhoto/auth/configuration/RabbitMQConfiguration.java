@@ -31,4 +31,9 @@ public class RabbitMQConfiguration {
     public Queue queue() {
         return new Queue("mail");
     }
+
+    @Bean
+    public Queue ESqueue() {
+        return new Queue("es");
+    }
 }

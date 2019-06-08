@@ -37,7 +37,7 @@ spring:
       cluster-name: elasticsearch_cluster
       cluster-nodes: 39.106.36.194:9300
 mybatis:
-  type-aliases-package: com.sharePhoto.dataFaker.entity
+  type-aliases-package: com.sharePhoto.dataFaker.ES
   mapper-locations: classpath:mapper/*.xml
   configuration:
     map-underscore-to-camel-case: true

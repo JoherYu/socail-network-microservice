@@ -13,4 +13,11 @@ public interface UserMapper {
 
     // 更新头像缩略图
     Integer updateCropAvatar(@Param("id") Integer id, @Param("avatarS") String avatarS, @Param("avatarM") String avatarM, @Param("avatarL") String avatarL);
+
+    // 根据用户id查询用户邮件
+    String selectEmailById(Integer id);
+
+    // 更新用户确认信息
+    Integer updateConfirmById(Integer id);
+
 }

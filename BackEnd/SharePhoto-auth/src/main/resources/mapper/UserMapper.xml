@@ -35,8 +35,14 @@
     <select id="selectUserIdByUsername" resultType="java.lang.Integer" parameterType="java.lang.String">
         select id from user where username = #{username,jdbcType=VARCHAR}
     </select>
+    <select id="selectEmailById" resultType="java.lang.String">
+        select email from user where id = #{id,jdbcType=INTEGER}
+    </select>
     <!--  剪裁头像  -->
     <update id="updateCropAvatar">
         update user set avatar_s = #{avatarS}, avatar_m = #{avatarM}, avatar_l = #{avatarL} where id = #{id}
+    </update>
+    <update id="updateConfirmById">
+        update user set confirmed = 1 where id = #{id}
     </update>
 </mapper>

@@ -72,7 +72,7 @@ public class TinyServicesImpl implements TinyServices {
         //4、根据session对象获取邮件传输对象Transport
         Transport transport = session.getTransport();
         //设置发件人的账户名和密码
-        transport.connect();
+        transport.connect("testingforweb@163.com", "授权码");
         //如果只想发送给指定的人，可以如下写法
         transport.sendMessage(msg, new Address[]{new InternetAddress(mailMessage.get("email"))});
         //5、关闭邮件连接

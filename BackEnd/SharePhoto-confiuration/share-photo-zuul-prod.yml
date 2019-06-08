@@ -39,6 +39,12 @@ zuul:
     csrf:
       path: /csrfToken
       serviceId: share-photo-tiny-service
+    search:
+      path: /search/**
+      serviceId: share-photo-search
+    register:
+      path: /user, /confirm/**
+      serviceId: share-photo-auth
 
   host:
     connect-timeout-millis: 60000

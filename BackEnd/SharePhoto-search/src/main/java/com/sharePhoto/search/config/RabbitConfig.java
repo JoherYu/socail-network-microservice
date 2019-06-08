@@ -1,4 +1,4 @@
-package com.sharePhoto.tiny.service.config;
+package com.sharePhoto.search.config;
 
 import org.springframework.amqp.rabbit.annotation.RabbitListenerConfigurer;
 import org.springframework.amqp.rabbit.listener.RabbitListenerEndpointRegistrar;
