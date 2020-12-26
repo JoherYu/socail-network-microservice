@@ -1,7 +1,0 @@
-spring:
-  cloud:
-    config:
-      uri: http://39.106.36.194:7040
-      name: share-photo-admin
-      label: master
-      profile: prod
